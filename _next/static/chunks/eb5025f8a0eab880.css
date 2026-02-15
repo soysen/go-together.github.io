@@ -1257,7 +1257,7 @@ body {
 
 body {
     color: var(--foreground);
-    background: #fff url(./bg.png) 50%/cover;
+    background: #fff url(/go-together.github.io/bg.png) 50%/cover;
     min-height: 100dvh;
     font-family: Chiron GoRound TC, Arial, Helvetica, sans-serif;
     display: flex !important
