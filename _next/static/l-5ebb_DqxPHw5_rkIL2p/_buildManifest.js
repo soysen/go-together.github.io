@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/go-together.github.io//_next/:path+",
+        "destination": "/go-together.github.io/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
