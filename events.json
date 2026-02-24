@@ -1,8 +1,9 @@
 {
   "events": [
     {
-      "description": "武陵櫻花季的一日限定山林之旅。",
-      "title": "武陵櫻花季｜一日限定・粉紅山林之旅",
+      "description": "2026 武陵櫻花季，一日限定的粉紅山林之旅。",
+      "title": "2026 武陵櫻花季｜一日限定・粉紅山林之旅",
+      "image_url": "null",
       "sessions": [
         {
           "location": "武陵農場",
@@ -14,12 +15,17 @@
         }
       ],
       "category": "生活休閒",
+      "tags": [
+        "櫻花",
+        "賞花"
+      ],
       "url": "https://www.ticket.com.tw/",
       "source": "年代"
     },
     {
       "description": "HARUNO-春野在Billboard Live TAIPEI的現場演出。",
-      "title": "HARUNO-春野",
+      "title": "HARUNO-春野 Billboard Live TAIPEI",
+      "image_url": "null",
       "sessions": [
         {
           "location": "BILLBOARD LIVE TAIPEI",
@@ -30,12 +36,16 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "日語"
+      ],
       "url": "https://www.billboardlivetaipei.tw/events/haruno2026",
       "source": "Billboard Live TAIPEI"
     },
     {
-      "description": "武陵農場櫻花季期間的疏運專車服務。",
-      "title": "武陵農場櫻花季疏運專車",
+      "description": "為2026武陵農場櫻花季提供的疏運專車服務，確保遊客順利前往。",
+      "title": "2026年武陵農場櫻花季疏運專車",
+      "image_url": "null",
       "sessions": [
         {
           "location": "市府轉運站-武陵農場",
@@ -47,7 +57,9 @@
         {
           "location": "臺北轉運站-武陵農場",
           "date": [
-            "2026/02/26"
+            "2026/02/26",
+            "2026/02/27",
+            "2026/02/28"
           ],
           "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P14YCJU3"
         },
@@ -61,39 +73,25 @@
         {
           "location": "羅東轉運站-武陵農場",
           "date": [
-            "2026/02/26"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P14YCJU3"
-        },
-        {
-          "location": "臺北轉運站-武陵農場",
-          "date": [
+            "2026/02/26",
             "2026/02/27"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P14YCJU3"
-        },
-        {
-          "location": "羅東轉運站-武陵農場",
-          "date": [
-            "2026/02/27"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P14YCJU3"
-        },
-        {
-          "location": "臺北轉運站-武陵農場",
-          "date": [
-            "2026/02/28"
           ],
           "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P14YCJU3"
         }
       ],
       "category": "生活休閒",
+      "tags": [
+        "武陵農場",
+        "櫻花季",
+        "疏運"
+      ],
       "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P14YCJU3",
       "source": "年代"
     },
     {
-      "description": "相川七瀬30週年紀念巡迴演唱會台北站。",
+      "description": "相川七瀬30週年紀念Billboard Live Tour台北站。",
       "title": "相川七瀬 30th Anniversary Billboard Live Tour 〜MOON DANCE〜",
+      "image_url": "null",
       "sessions": [
         {
           "location": "BILLBOARD LIVE TAIPEI",
@@ -104,15 +102,19 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "日語"
+      ],
       "url": "https://www.billboardlivetaipei.tw/events/aikawananase2026",
       "source": "Billboard Live TAIPEI"
     },
     {
       "description": "由「董軒、耿賢、阿量、木森」四位人氣演員輪番上陣，火力全開呈現漫才、短劇、互動三重驚喜演出。",
       "title": "中友藝術季x面白大丈夫《新春喜劇特輯》",
+      "image_url": "null",
       "sessions": [
         {
-          "location": "不詳",
+          "location": "台中中友百貨",
           "date": [
             "2026/02/27"
           ],
@@ -120,12 +122,18 @@
         }
       ],
       "category": "表演藝術",
+      "tags": [
+        "喜劇",
+        "漫才",
+        "短劇"
+      ],
       "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15N3P2Z",
       "source": "年代"
     },
     {
-      "description": "郁采真在高雄的特別場慶生演唱會。",
-      "title": "郁采真 Volcano 火山執行中 V.run(65/265) 慶生演唱會",
+      "description": "郁采真 Volcano 火山執行中高雄特別場慶生演唱會。",
+      "title": "郁采真 Volcano 火山執行中 V.run 高雄特別場 慶生演唱會",
+      "image_url": "null",
       "sessions": [
         {
           "location": "LIVE WAREHOUSE",
@@ -136,15 +144,20 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "慶生",
+        "獨立音樂"
+      ],
       "url": "https://www.indievox.com/partner/search/LIVE%20WAREHOUSE",
-      "source": "其他"
+      "source": "KKTIX"
     },
     {
-      "description": "藝術季中的一場室內樂團音樂會。",
-      "title": "中友藝術季x風動室內樂團《新年音樂會》",
+      "description": "2026中友藝術季，風動室內樂團帶來新年音樂會。",
+      "title": "2026中友藝術季x風動室內樂團《新年音樂會》",
+      "image_url": "null",
       "sessions": [
         {
-          "location": "不詳",
+          "location": "未知",
           "date": [
             "2026/02/28",
             "2026/03/01"
@@ -153,12 +166,16 @@
         }
       ],
       "category": "表演藝術",
+      "tags": [
+        "音樂會"
+      ],
       "url": "https://www.ticket.com.tw/",
       "source": "年代"
     },
     {
-      "description": "臺灣唯一一場規模最盛大、賽事等級最高的國標舞正式公開賽事。",
+      "description": "國標舞亞巡賽臺北站是臺灣唯一一場規模最盛大、賽事等級最高的國標舞公開賽事。",
       "title": "國標舞亞巡賽-臺北公開賽",
+      "image_url": "null",
       "sessions": [
         {
           "location": "臺北",
@@ -169,28 +186,38 @@
         }
       ],
       "category": "生活休閒",
+      "tags": [
+        "國標舞",
+        "競賽"
+      ],
       "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P13V4WRD",
       "source": "年代"
     },
     {
-      "description": "Butcher Brown在Billboard Live TAIPEI的特別夜晚演出。",
+      "description": "Butcher Brown 現場演出。",
       "title": "Evening With Butcher Brown",
+      "image_url": "null",
       "sessions": [
         {
           "location": "BILLBOARD LIVE TAIPEI",
           "date": [
             "2026/02/28"
           ],
-          "url": "https://www.billboardlivetaipei.tw/events/butcherbrown2026"
+          "url": "https://www.billboardlivetaipei.tw/tw/events/butcherbrown2026"
         }
       ],
       "category": "演唱會",
-      "url": "https://www.billboardlivetaipei.tw/events/butcherbrown2026",
+      "tags": [
+        "爵士",
+        "放克"
+      ],
+      "url": "https://www.billboardlivetaipei.tw/tw/events/butcherbrown2026",
       "source": "Billboard Live TAIPEI"
     },
     {
-      "description": "初恋Eternal的第二次Live巡迴演唱會高雄場。",
+      "description": "初恋Eternal 2nd Live Tour 高雄場演出。",
       "title": "初恋Eternal 2nd Live Tour",
+      "image_url": "null",
       "sessions": [
         {
           "location": "LIVE WAREHOUSE",
@@ -201,15 +228,19 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "Live Tour"
+      ],
       "url": "https://www.indievox.com/partner/search/LIVE%20WAREHOUSE",
-      "source": "其他"
+      "source": "KKTIX"
     },
     {
-      "description": "韓國樂團CNBLUE的世界巡迴演唱會。",
+      "description": "CNBLUE 2026年世界巡迴演唱會'3LOGY'台北站。",
       "title": "CNBLUE LIVE WORLD TOUR '3LOGY'",
+      "image_url": "null",
       "sessions": [
         {
-          "location": "Taipei",
+          "location": "台北",
           "date": [
             "2026/03/06"
           ],
@@ -217,12 +248,16 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "韓團"
+      ],
       "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15A1KRR",
       "source": "年代"
     },
     {
-      "description": "SENZA A Cappella的無伴奏合唱音樂會高雄站。",
-      "title": "𝘚𝘰 𝘍𝘢𝘳 — SENZA A Cappella 無伴奏合唱音樂會",
+      "description": "SENZA A Cappella 無伴奏合唱音樂會高雄站。",
+      "title": "So Far — SENZA A Cappella 無伴奏合唱音樂會",
+      "image_url": "null",
       "sessions": [
         {
           "location": "LIVE WAREHOUSE",
@@ -233,15 +268,55 @@
         }
       ],
       "category": "表演藝術",
+      "tags": [
+        "A Cappella",
+        "無伴奏合唱"
+      ],
       "url": "https://www.indievox.com/partner/search/LIVE%20WAREHOUSE",
-      "source": "其他"
+      "source": "KKTIX"
     },
     {
-      "description": "帶來最前線音樂能量的活動，喜歡VOCALOID等日本網路音樂的你絕對不能錯過！",
-      "title": "HYPER FLAT 超樂境界Vol.3",
+      "description": "楊烈世界巡迴演唱會，以｢台、日、美音樂藝術交流｣為主軸。",
+      "title": "自由之地楊烈世界巡迴演唱會",
+      "image_url": "null",
       "sessions": [
         {
-          "location": "不詳",
+          "location": "台北",
+          "date": [
+            "2026/03/07"
+          ],
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P140YE0L"
+        },
+        {
+          "location": "臺灣戲曲中心大表演廳",
+          "date": [
+            "2026/03/08"
+          ],
+          "url": "https://ticket.com.tw/application/UTK02/UTK0204_.aspx?PERFORMANCE_ID=P1480UMK&PRODUCT_ID=P140YE0L"
+        },
+        {
+          "location": "台北",
+          "date": [
+            "2026/03/20"
+          ],
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P140YE0L"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "台語",
+        "日語"
+      ],
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P140YE0L",
+      "source": "年代"
+    },
+    {
+      "description": "帶來與上次不同的最前線音樂能量，喜歡VOCALOID等日本網路音樂的你絕對不能錯過！",
+      "title": "HYPER FLAT 超樂境界Vol.3",
+      "image_url": "null",
+      "sessions": [
+        {
+          "location": "未知",
           "date": [
             "2026/03/07"
           ],
@@ -249,12 +324,17 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "VOCALOID",
+        "日本網路音樂"
+      ],
       "url": "https://ticketplus.com.tw/activity/44a60a0785a4946469fd3b33d10f95fb",
       "source": "遠大"
     },
     {
-      "description": "MOTIF HIVE的雙EP台灣巡迴專場。",
+      "description": "MOTIF HIVE 雙EP台灣巡迴專場演出。",
       "title": "MOTIF HIVE - PHASE：｜PERIOD 雙EP 台灣巡迴專場",
+      "image_url": "null",
       "sessions": [
         {
           "location": "LIVE WAREHOUSE",
@@ -265,12 +345,17 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "EP巡迴",
+        "獨立音樂"
+      ],
       "url": "https://www.indievox.com/partner/search/LIVE%20WAREHOUSE",
-      "source": "其他"
+      "source": "KKTIX"
     },
     {
-      "description": "ハラミちゃん在Billboard Live TAIPEI的特別之夜。",
+      "description": "ハラミちゃん HARAMI Premium Night 2026 台北場。",
       "title": "HARAMI Premium Night",
+      "image_url": "null",
       "sessions": [
         {
           "location": "BILLBOARD LIVE TAIPEI",
@@ -281,79 +366,62 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "日語"
+      ],
       "url": "https://www.billboardlivetaipei.tw/events/harami2026",
       "source": "Billboard Live TAIPEI"
     },
     {
-      "description": "NAGA樂團25週年紀念音樂會。",
-      "title": "NAGA 25週年音樂會",
+      "description": "NAGA 吉他迎來創立 25 週年，這場音樂會是多年夢想的實現，將以二重奏形式登台演出。",
+      "title": "NAGA 吉他25 週年音樂會",
+      "image_url": "null",
       "sessions": [
         {
-          "location": "不詳",
+          "location": "台北",
           "date": [
             "2026/03/08"
           ],
-          "url": "https://www.ticket.com.tw/"
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15NFW91"
         }
       ],
       "category": "演唱會",
-      "url": "https://www.ticket.com.tw/",
-      "source": "年代"
-    },
-    {
-      "description": "以｢台、日、美音樂藝術交流｣為主軸的世界巡迴演唱會。",
-      "title": "自由之地 楊烈世界巡迴演唱會",
-      "sessions": [
-        {
-          "location": "臺灣戲曲中心大表演廳",
-          "date": [
-            "2026/03/08"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0204_.aspx?PERFORMANCE_ID=P1480UMK&PRODUCT_ID=P140YE0L"
-        },
-        {
-          "location": "衛武營國家藝術中心 歌劇院",
-          "date": [
-            "2026/03/07",
-            "2026/03/08",
-            "2026/03/20"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P140YE0L"
-        }
+      "tags": [
+        "吉他",
+        "指彈"
       ],
-      "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P140YE0L",
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15NFW91",
       "source": "年代"
     },
     {
-      "description": "開春音樂大亂鬥，多組樂團演出。",
+      "description": "壞兒來福開春大亂鬥Live演出。",
       "title": "Fire Live 壞兒來福：開春大亂鬥",
+      "image_url": "null",
       "sessions": [
         {
           "location": "LIVE WAREHOUSE",
           "date": [
-            "2026/03/13"
-          ],
-          "url": "https://www.indievox.com/partner/search/LIVE%20WAREHOUSE"
-        },
-        {
-          "location": "LIVE WAREHOUSE",
-          "date": [
+            "2026/03/13",
             "2026/03/14"
           ],
           "url": "https://www.indievox.com/partner/search/LIVE%20WAREHOUSE"
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "Live",
+        "音樂"
+      ],
       "url": "https://www.indievox.com/partner/search/LIVE%20WAREHOUSE",
-      "source": "其他"
+      "source": "KKTIX"
     },
     {
-      "description": "與Red Velvet JOY相遇的亞洲巡迴演唱會。",
+      "description": "2026 JOY ASIA TOUR ‘JOY SPLASH’ in TAIPEI，與Red Velvet JOY相遇的春天。",
       "title": "JOY ASIA TOUR 'JOY SPLASH'",
+      "image_url": "null",
       "sessions": [
         {
-          "location": "Taipei",
+          "location": "台北",
           "date": [
             "2026/03/15"
           ],
@@ -361,12 +429,17 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "韓團",
+        "Red Velvet JOY"
+      ],
       "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15NIDVV",
       "source": "年代"
     },
     {
       "description": "TENDRE在Billboard Live TAIPEI的現場演出。",
       "title": "TENDRE live",
+      "image_url": "null",
       "sessions": [
         {
           "location": "BILLBOARD LIVE TAIPEI",
@@ -377,12 +450,34 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "日語"
+      ],
       "url": "https://www.billboardlivetaipei.tw/events/tendre2026",
       "source": "Billboard Live TAIPEI"
     },
     {
-      "description": "WONK在Billboard Live TAIPEI的現場演出。",
+      "description": "S.A.R. 現場演出。",
+      "title": "S.A.R.",
+      "image_url": "null",
+      "sessions": [
+        {
+          "location": "BILLBOARD LIVE TAIPEI",
+          "date": [
+            "2026/03/17"
+          ],
+          "url": "https://www.billboardlivetaipei.tw/tw/events/s.a.r.2026"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [],
+      "url": "https://www.billboardlivetaipei.tw/tw/events/s.a.r.2026",
+      "source": "Billboard Live TAIPEI"
+    },
+    {
+      "description": "日本樂團WONK在Billboard Live TAIPEI的現場演出。",
       "title": "WONK Live",
+      "image_url": "null",
       "sessions": [
         {
           "location": "BILLBOARD LIVE TAIPEI",
@@ -393,48 +488,19 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "日語"
+      ],
       "url": "https://www.billboardlivetaipei.tw/events/wonk2026",
       "source": "Billboard Live TAIPEI"
     },
     {
-      "description": "一場表演藝術演出。",
-      "title": "孤島",
-      "sessions": [
-        {
-          "location": "不詳",
-          "date": [
-            "2026/03/22"
-          ],
-          "url": "https://kktix.com/user/zyr0403?locale=en"
-        }
-      ],
-      "category": "表演藝術",
-      "url": "https://kktix.com/user/zyr0403?locale=en",
-      "source": "KKTIX"
-    },
-    {
-      "description": "傻豆騎士系列活動，主題為「遙遠的美好時光」。",
-      "title": "傻豆騎士系列-「遙遠的美好時光」",
-      "sessions": [
-        {
-          "location": "不詳",
-          "date": [
-            "2026/03/28",
-            "2026/04/24"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15TPAUT"
-        }
-      ],
-      "category": "展覽",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15TPAUT",
-      "source": "年代"
-    },
-    {
-      "description": "超有特色的舞台魅力，令人難忘的現場演出，金曲獎、金音獎肯定的中性風女子樂團GDJYB雞蛋蒸肉餅專輯同名巡演。",
+      "description": "金曲獎、金音獎肯定的中性風女子樂團 GDJYB 雞蛋蒸肉餅，發佈第四張專輯並展開巡演台北站。",
       "title": "GDJYB 雞蛋蒸肉餅 【＜=P：r0J3CT 2222/＞】",
+      "image_url": "null",
       "sessions": [
         {
-          "location": "台北SUB live house",
+          "location": "SUB live house",
           "date": [
             "2026/03/29"
           ],
@@ -442,44 +508,17 @@
         }
       ],
       "category": "演唱會",
-      "url": "https://www.indievox.com/activity/detail/26_iv039235c",
-      "source": "其他"
-    },
-    {
-      "description": "溫流獻給台灣斤古的TOUGH LOVE 見面會。",
-      "title": "ONEW FANMEETING [TOUGH LOVE]",
-      "sessions": [
-        {
-          "location": "Taipei",
-          "date": [
-            "2026/04/03"
-          ],
-          "url": "https://kktix.com/events/476cd237"
-        }
+      "tags": [
+        "獨立樂團",
+        "女子樂團"
       ],
-      "category": "演唱會",
-      "url": "https://kktix.com/events/476cd237",
+      "url": "https://www.indievox.com/activity/detail/26_iv039235c",
       "source": "KKTIX"
     },
     {
-      "description": "精選多部世界知名音樂劇中感動人心的樂曲，巧妙凸顯長笛與法國號的張力與優美旋律的合奏。",
-      "title": "仙女與喇叭花～隨歌起舞的篇章",
-      "sessions": [
-        {
-          "location": "不詳",
-          "date": [
-            "2026/04/04"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15RLENM"
-        }
-      ],
-      "category": "表演藝術",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15RLENM",
-      "source": "年代"
-    },
-    {
-      "description": "李昇基與FTISLAND主唱李洪基強強聯手，於高雄流行音樂中心舉辦聯合演唱會。",
+      "description": "韓流音樂圈夢幻級的摯友組合李昇基與FTISLAND主唱李洪基強強聯手，於4月4日在高雄流行音樂中心舉辦2026 OURIS LIVE CONCERT 【MIRACLE】。",
       "title": "OURIS LIVE CONCERT 【MIRACLE】",
+      "image_url": "null",
       "sessions": [
         {
           "location": "高雄流行音樂中心",
@@ -490,15 +529,43 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "韓團",
+        "李昇基",
+        "李洪基"
+      ],
       "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P169BJ5V",
       "source": "年代"
     },
     {
-      "description": "韓國演員趙炳圭首度來台舉辦個人見面會。",
-      "title": "JUST US Cho Byeong Kyu Fanmeeting",
+      "description": "精選多部世界知名音樂劇中感動人心的樂曲，巧妙凸顯長笛與法國號的張力與優美旋律的合奏。",
+      "title": "《仙女與喇叭花～隨歌起舞的篇章》",
+      "image_url": "null",
       "sessions": [
         {
-          "location": "Taipei",
+          "location": "嘉義",
+          "date": [
+            "2026/04/04"
+          ],
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15RLENM"
+        }
+      ],
+      "category": "表演藝術",
+      "tags": [
+        "音樂劇",
+        "長笛",
+        "法國號"
+      ],
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15RLENM",
+      "source": "年代"
+    },
+    {
+      "description": "因超人氣奇幻韓劇《驅魔麵館》紅遍全亞洲的韓國演員趙炳圭，首度來台舉辦個人見面會。",
+      "title": "Cho Byeong Kyu Fanmeeting",
+      "image_url": "null",
+      "sessions": [
+        {
+          "location": "台北",
           "date": [
             "2026/04/04"
           ],
@@ -506,12 +573,18 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "韓星",
+        "見面會",
+        "趙炳圭"
+      ],
       "url": "https://ticketplus.com.tw/activity/c79ab0afac655d14c6292b5a9e711994",
       "source": "遠大"
     },
     {
-      "description": "brkfstblend在台北的現場演出。",
+      "description": "brkfstblend 於台北左輪的現場演出。",
       "title": "brkfstblend live",
+      "image_url": "null",
       "sessions": [
         {
           "location": "台北左輪",
@@ -522,44 +595,14 @@
         }
       ],
       "category": "演唱會",
+      "tags": [],
       "url": "https://ticketplus.com.tw/activity/139299225982311139b07ba2bff1dfa1",
       "source": "遠大"
     },
     {
-      "description": "脫口秀或漫才演出。",
-      "title": "菜冠雙Talk",
-      "sessions": [
-        {
-          "location": "不詳",
-          "date": [
-            "2026/04/11"
-          ],
-          "url": "https://kktix.com/user/hii0604?locale=en"
-        }
-      ],
-      "category": "表演藝術",
-      "url": "https://kktix.com/user/hii0604?locale=en",
-      "source": "KKTIX"
-    },
-    {
-      "description": "日本人氣創作歌手秋山黄色將舉辦首場海外專場演唱會。",
-      "title": "秋山黄色ONEMAN LIVE：「黄一色」",
-      "sessions": [
-        {
-          "location": "Taipei",
-          "date": [
-            "2026/04/11"
-          ],
-          "url": "https://kktix.com/events/kiroakiyamaintaipei"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://kktix.com/events/kiroakiyamaintaipei",
-      "source": "KKTIX"
-    },
-    {
-      "description": "男子漢樂團「月光」單曲專場演出。",
+      "description": "男子漢樂團「月光」單曲專場，在台中舉行。",
       "title": "《聽見光》男子漢樂團「月光」單曲專場",
+      "image_url": "null",
       "sessions": [
         {
           "location": "台中",
@@ -570,12 +613,17 @@
         }
       ],
       "category": "演唱會",
+      "tags": [
+        "獨立音樂",
+        "單曲專場"
+      ],
       "url": "https://www.indievox.com/activity/latest",
-      "source": "其他"
+      "source": "KKTIX"
     },
     {
-      "description": "世界知名音樂劇《歌劇魅影》的台灣演出。",
+      "description": "全本音樂劇《歌劇魅影》The Phantom of the Opera，在臺北表演藝術中心大劇院演出。",
       "title": "全本音樂劇《歌劇魅影》The Phantom of the Opera",
+      "image_url": "null",
       "sessions": [
         {
           "location": "臺北表演藝術中心大劇院",
@@ -583,34 +631,14 @@
             "2026/04/22"
           ],
           "url": "https://kham.com.tw/application/UTK02/UTK0201_00.aspx?PRODUCT_ID=P13CXC1H"
-        },
-        {
-          "location": "臺北表演藝術中心大劇院",
-          "date": [
-            "2026/04/23"
-          ],
-          "url": "https://kham.com.tw/application/UTK02/UTK0201_00.aspx?PRODUCT_ID=P13CXC1H"
         }
       ],
       "category": "表演藝術",
+      "tags": [
+        "音樂劇"
+      ],
       "url": "https://kham.com.tw/application/UTK02/UTK0201_00.aspx?PRODUCT_ID=P13CXC1H",
       "source": "寬宏"
-    },
-    {
-      "description": "這場即將登場的演出，地點位於復興北路的某個地下室，一個日間是西裝革履戰場、夜晚則沉寂無聲的台北商業區。",
-      "title": "B.F.F 假面閨蜜：Bitch Friends Forever",
-      "sessions": [
-        {
-          "location": "台中",
-          "date": [
-            "2026/04/24"
-          ],
-          "url": "https://kktix.com/events?category_id=4&page=19"
-        }
-      ],
-      "category": "表演藝術",
-      "url": "https://kktix.com/events?category_id=4&page=19",
-      "source": "KKTIX"
     }
   ]
 }
