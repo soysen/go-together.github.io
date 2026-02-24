@@ -1281,7 +1281,7 @@ body {
 
 body {
     color: var(--foreground);
-    background: var(--background)url(/assets/Bg.png) center/cover;
+    background: var(--background)url(/Bg.png) center/cover;
     min-height: 100dvh;
     font-family: Chiron GoRound TC, Arial, Helvetica, sans-serif;
     display: flex !important
