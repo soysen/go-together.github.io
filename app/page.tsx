@@ -50,7 +50,6 @@ export default function Home() {
                     return dateA - dateB;
                 });
                 setEvents(eventsList);
-                localStorage.setItem('events', JSON.stringify(eventsList));
             } catch (err) {
                 console.error('Error fetching events:', err);
                 setError('無法連線到伺服器，請稍後再試。');
@@ -155,44 +154,25 @@ export default function Home() {
                 </nav>
             </header>
 
-            {/* Filter Bar */}
-            <div className="mb-8 space-y-4">
-
-
-                {/* Tag Filter */}
-                {filterOptions.tags.length > 0 && (
-                    <div className="flex flex-wrap items-center gap-2">
-                        <span className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider w-16 shrink-0">標籤</span>
-                        {filterOptions.tags.map(tag => (
-                            <button
-                                key={tag}
-                                onClick={() => setActiveTag(activeTag === tag ? null : tag)}
-                                className={`px-3 py-1 rounded-full text-xs font-medium transition-all duration-200 border ${activeTag === tag
-                                    ? 'bg-purple-600 text-white border-purple-600 shadow-sm'
-                                    : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 border-gray-200 dark:border-gray-700 hover:border-purple-300 dark:hover:border-purple-600'
-                                    }`}
-                            >
-                                #{tag}
-                            </button>
-                        ))}
-                    </div>
-                )}
-
-                {/* Active filter summary & clear */}
-                {hasActiveFilter && (
-                    <div className="flex items-center gap-2 pt-1">
-                        <span className="text-xs text-gray-500 dark:text-gray-400">
-                            顯示 {filteredEvents.length} / {events.length} 項活動
+            {/* Active filter summary & clear */}
+            {hasActiveFilter && (
+                <div className="flex items-center gap-2 mb-4">
+                    <span className="text-xs text-gray-500 dark:text-gray-400">
+                        顯示 {filteredEvents.length} / {events.length} 項活動
+                    </span>
+                    {activeTag && (
+                        <span className="px-2 py-0.5 rounded-full text-xs font-medium bg-purple-600 text-white">
+                            #{activeTag}
                         </span>
-                        <button
-                            onClick={clearAllFilters}
-                            className="text-xs text-red-500 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300 underline transition-colors"
-                        >
-                            清除全部篩選
-                        </button>
-                    </div>
-                )}
-            </div>
+                    )}
+                    <button
+                        onClick={clearAllFilters}
+                        className="text-xs text-red-500 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300 underline transition-colors"
+                    >
+                        清除全部篩選
+                    </button>
+                </div>
+            )}
 
             {/* Event Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -216,20 +196,28 @@ export default function Home() {
                                     <span className="inline-block px-2 py-0.5 rounded-full text-xs font-medium bg-mint text-menu mb-2">
                                         {event.category}
                                     </span>
-                                    <span className="inline-block px-2 py-0.5 rounded-full ml-1 text-xs font-medium bg-mint text-menu mb-2">
+                                    <span className="inline-block px-2 ml-1 py-0.5 rounded-full text-xs font-medium bg-mint text-menu mb-2">
                                         {event.sessions[0].location}
                                     </span>
-                                    <p className="text-gray-600 dark:text-gray-300 mb-3 line-clamp-3 text-sm">{event.description}</p>
+                                    <p  className="text-gray-600 dark:text-gray-300 mb-3 line-clamp-3 text-sm">{event.description}</p>
+                                </div>
                                     {event.tags && event.tags.length > 0 && (
                                         <div className="flex flex-wrap gap-1 mb-3">
                                             {event.tags.slice(0, 3).map((tag, i) => (
-                                                <span key={i} className="px-1.5 py-0.5 text-[10px] rounded-full bg-gray-100 text-gray-500 dark:bg-gray-700 dark:text-gray-400">
+                                                <span
+                                                    key={i}
+                                                    onClick={(e) => { e.stopPropagation(); setActiveTag(tag); }}
+                                                    className={`px-1.5 py-0.5 text-[10px] rounded-full cursor-pointer transition-all duration-200 ${
+                                                        activeTag === tag
+                                                            ? 'bg-purple-600 text-white shadow-sm'
+                                                            : 'bg-gray-100 text-gray-500 dark:bg-gray-700 dark:text-gray-400 hover:bg-purple-100 hover:text-purple-600 dark:hover:bg-purple-900 dark:hover:text-purple-300'
+                                                    }`}
+                                                >
                                                     #{tag}
                                                 </span>
                                             ))}
                                         </div>
                                     )}
-                                </div>
                                 <p className="flex text-xs text-black justify-between items-center font-medium justify-self-end">
                                     <span className='dark:text-white'>{event.sessions.length} 個場次</span> <span className="rounded-lg bg-gold px-2 py-1">點擊查看 →</span>
                                 </p>
@@ -242,6 +230,10 @@ export default function Home() {
             <SidePanel
                 event={selectedEvent}
                 onClose={() => setSelectedEvent(null)}
+                onTagClick={(tag) => {
+                    setSelectedEvent(null);
+                    setActiveTag(activeTag === tag ? null : tag);
+                }}
             />
         </div>
     );

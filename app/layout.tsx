@@ -22,10 +22,10 @@ export default function RootLayout({
         <html lang="en">
             <head>
                 <link rel="icon" href="./favicon/favicon-16x16.png" />
-                <meta property="og:title" content="這週去哪玩"></meta>
-                <meta property="og:description" content="選個喜歡的活動，來一場說走就走的小旅行"></meta>
-                <meta property="og:image" content="https://soysen.github.io/go-together.github.io/favicon/cover.png"></meta>
-                <link rel="apple-touch-icon" href="https://soysen.github.io/go-together.github.io/favicon/apple-touch-icon.png" />
+                <meta property="og:title" content="這週去哪玩" />
+                <meta property="og:description" content="選個喜歡的活動，來一場說走就走的小旅行" />
+                <meta property="og:image" content="https://soysen.github.io/go-together.github.io/favicon/cover.png" />
+                <link rel="apple-touch-icon" href="./favicon/apple-touch-icon.png" />
             </head>
             <body
                 className={`${chiron.variable} antialiased`}

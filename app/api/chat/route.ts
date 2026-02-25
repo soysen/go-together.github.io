@@ -8,8 +8,9 @@ const TARGET_SITES = [
   { name: '寬宏', domain: 'kham.com.tw' },
   { name: '年代', domain: 'ticket.com.tw' },
   { name: '遠大', domain: 'ticketplus.com.tw' },
-  { name: 'INDIEVOX', domain: 'indievox.com' },
-  { name: 'Billboard Live TAIPEI', domain: 'billboardlivetaipei.tw' },
+  { name: 'iNDIEVOX', domain: 'indievox.com' },
+  { name: 'BILLBOARD LIVE TAIPEI', domain: 'billboardlivetaipei.tw' },
+  { name: '華山文創園區', domain: 'huashan1914.com' },
 ];
 export const EventCategoryEnum = z.enum([
   '演唱會',
@@ -18,6 +19,7 @@ export const EventCategoryEnum = z.enum([
   '生活休閒', // 包含市集、講座、體驗活動
   '其他'
 ]);
+
 
 function getDynamicDateParams() {
   const now = new Date();
@@ -57,14 +59,14 @@ const EventSchema = z.object({
     title: z.string().describe('活動的主標題，請移除 "台北站"、"高雄場" 等後綴，保留核心名稱。例如："五月天 [回到那一天] 巡迴演唱會"'),
     image_url: z.string().optional(), // 如果有的話
     sessions: z.array(z.object({
-      location: z.string().describe('該場次的具體地點，如 "台北小巨蛋"'),
+      location: z.string().describe('該場次的具體展演場館名稱。必須盡可能保留完整名稱（如 "台北流行音樂中心"、"Legacy Taichung"）。若原文僅標示城市（如 "台北"）則填城市名，若完全未提及則填 "未知" 或 null。'),
       date: z.array(z.string()).describe('該場次的日期陣列 ["YYYY/MM/DD"]'),
       url: z.string().describe('該場次的購票連結 (不同場次連結可能不同)'),
     })).describe('將相同活動但不同地點/時間的場次合併於此'),
     category: EventCategoryEnum.describe('活動的主類別，請根據標題與內容判斷'),
     tags: z.array(z.string()).describe('額外的關鍵字標籤，例如 ["搖滾", "韓團"] 或 ["油畫", "攝影"]').optional(),
     url: z.string().describe('活動網址'),
-    source: z.enum(['KKTIX', '寬宏', '遠大', '年代', 'Billboard Live TAIPEI', '其他']),
+    source: z.enum(['KKTIX', '寬宏', '遠大', '年代', 'iNDIEVOX', 'BILLBOARD LIVE TAIPEI', '華山文創園區', '其他']),
   })),
 });
 
@@ -77,7 +79,7 @@ export async function POST(req: Request) {
     console.log(`搜尋關鍵字: ${searchString}`);
 
     // ===== Step 1: 先用 Tavily 搜尋 =====
-    const tvly = tavily({ apiKey: process.env.TAVILY_API_KEY });
+    const tvly = tavily({ apiKey: "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" });
     // ===== Step 1: 平行搜尋 (Parallel Search) =====
     // 策略：與其發一個大 request，不如發 5 個小 request，確保每個網站都有資料
     const searchPromises = TARGET_SITES.map(async (site) => {
@@ -89,7 +91,7 @@ export async function POST(req: Request) {
         const result = await tvly.search(query, {
           // 這裡不需要 includeDomains 了，因為 query 裡已經用 site: 鎖定
           maxResults: 15, // 每個網站只抓 6 筆最準的，5個站就有 30 筆
-          search_depth: "basic", // 省錢用 basic，如果要深挖改用 "advanced"
+          search_depth: site.name === 'BILLBOARD LIVE TAIPEI' ? "advanced" : "basic", // 省錢用 basic，如果要深挖改用 "advanced"
         });
         return result.results;
       } catch (e) {
@@ -112,7 +114,7 @@ export async function POST(req: Request) {
     const searchContext = uniqueResults
       .map((r, i) => {
         // 截斷過長的內容，保留 Token 給更多活動
-        const contentSnippet = r.content.slice(0, 500);
+        const contentSnippet = r.content.slice(0, 1000);
         return `[ID:${i}] 標題: ${r.title}\n來源: ${r.url}\n內文摘要: ${contentSnippet}`;
       })
       .join('\n\n---\n\n');
@@ -123,43 +125,44 @@ export async function POST(req: Request) {
       model: google('gemini-2.5-flash'),
       schema: EventSchema,
       prompt: `
-     你是一個嚴格的資料過濾員。
-      
-      【任務目標】
-      從提供的 Raw Data 中提取符合時間範圍的活動。
-      
-      【資料聚合規則 (Aggregation)】
-      如果你發現多個搜尋結果其實是「同一個巡迴」或「同一個展覽」的不同場地/時間：
-      1. 請將它們合併為一個 Event 物件。
-      2. 標題 (title) 請使用最通用的名稱 (去除地點後綴)。
-      3. 將各個場地的資訊放入 sessions 陣列中。
-      4. sessions 陣列中的 location 請使用最通用的名稱 (去除地點後綴)。
-      5. 若資料來源是 Billboard Live TAIPEI，則 sessions 陣列中的 location 請使用 "BILLBOARD LIVE TAIPEI"。
-        
-      【當下時間】
-      今天是 ${startDate}。
-      目標範圍：${startDate} ~ ${endDate}。
-      
-      【日期格式嚴格要求】
-      請將活動日期轉換為 JSON String Array：
-      1. **單日活動**：陣列只有一個元素。範例：["2026/02/15"]
-      2. **連續/區間活動**：陣列有兩個元素。範例：["2026/02/15", "2026/03/10"]
-      3. **年份修正**：請根據當前年份 (${new Date().getFullYear()}) 自動補全。
-      
-      【過濾規則】
-      1. 嚴格檢查日期：內文若沒寫日期，或日期不在範圍內，直接捨棄。
-      2. 去除雜訊：如果是 "會員登入頁"、"購票須知"、"過期活動"，直接捨棄。
-    
-      【分類邏輯】
-      1. **演唱會**：包含 "巡迴"、"Live"、"演唱會"、"見面會"、"音樂祭"。
-      2. **展覽**：包含 "特展"、"展覽"、"美術館"、"博覽會"、"快閃店"。
-      3. **表演藝術**：包含 "舞台劇"、"音樂劇"、"舞蹈"、"馬戲"、"脫口秀"、"相聲"。
-      4. **生活休閒**：包含 "市集"、"講座"、"工作坊"、"路跑"、"營隊"。
-      5. **其他**：無法歸類於上述者。
-      
-      【待處理資料】
-      ${searchContext}
-    `,
+        你是一個嚴謹的活動資料提取員。
+
+        【任務目標】
+        從提供的 Raw Data 中提取符合時間範圍的活動資訊。
+
+        【資料聚合規則 (Aggregation)】
+        若多個搜尋結果為「同一個巡迴/展覽」的不同場地或時間：
+        1. 合併為單一 Event 物件。
+        2. 主標題 (title) 使用最通用名稱，去除地點後綴（如「台北站」）。
+        3. 場次資訊放入 sessions 陣列。
+        4. sessions 陣列的 location 必須提取「完整的展演場館名稱」（如 "Zepp New Taipei"、"台北小巨蛋"）。若僅提及城市填寫城市名，完全無資訊填寫 "未知"。絕對不可自行簡化場館名。
+        5. 特殊指定：若來源為 Billboard Live TAIPEI 或 華山文創園區，location 請直接填寫 "BILLBOARD LIVE TAIPEI" 或 "華山文創園區"。
+
+        【時間範圍】
+        今天日期：${startDate}
+        目標範圍：${startDate} ~ ${endDate}
+
+        【日期格式嚴格要求】
+        請將活動日期轉換為 JSON String Array：
+        1. **單日活動**：陣列只有一個元素。
+            範例：["2026-02-15"]
+        2. **連續/區間活動**：陣列有兩個元素，代表 [開始日期, 結束日期]。
+            範例：["2026-02-15", "2026-03-10"]
+
+        【過濾規則】
+        1. 嚴格捨棄：內文未提及日期、日期不在目標範圍內。
+        2. 雜訊排除：純粹的 "會員登入頁"、"購票須知"、"過期活動"。
+
+        【分類邏輯】
+        1. 演唱會：包含 巡迴、Live、演唱會、見面會、音樂祭。
+        2. 展覽：包含 特展、展覽、美術館、博覽會、快閃店。
+        3. 表演藝術：包含 舞台劇、音樂劇、舞蹈、馬戲、脫口秀、相聲。
+        4. 生活休閒：包含 市集、講座、工作坊、路跑、營隊。
+        5. 其他：無法歸類者。
+
+        【待處理資料】
+        ${searchContext}
+      `,
     });
 
     console.log(`[LLM] 整理完成，共 ${result.object.events.length} 筆活動`);

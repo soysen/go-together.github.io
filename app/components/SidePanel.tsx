@@ -17,6 +17,7 @@ interface Event {
 interface SidePanelProps {
     event: Event | null;
     onClose: () => void;
+    onTagClick?: (tag: string) => void;
 }
 
 function formatDate(dates: string[]): string {
@@ -25,7 +26,7 @@ function formatDate(dates: string[]): string {
     return dates.join(', ');
 }
 
-export default function SidePanel({ event, onClose }: SidePanelProps) {
+export default function SidePanel({ event, onClose, onTagClick }: SidePanelProps) {
     const isOpen = event !== null;
 
     return (
@@ -76,7 +77,8 @@ export default function SidePanel({ event, onClose }: SidePanelProps) {
                                     {event.tags.map((tag, i) => (
                                         <span
                                             key={i}
-                                            className="px-2 py-0.5 text-xs rounded-full bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400"
+                                            onClick={() => onTagClick?.(tag)}
+                                            className="px-2 py-0.5 text-xs rounded-full bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400 cursor-pointer hover:bg-purple-100 hover:text-purple-600 dark:hover:bg-purple-900 dark:hover:text-purple-300 transition-all duration-200"
                                         >
                                             #{tag}
                                         </span>
