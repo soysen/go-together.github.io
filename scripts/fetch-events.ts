@@ -85,7 +85,7 @@ async function main() {
     const { startDate, endDate, searchString } = getDynamicDateParams();
     console.log(`🔍 搜尋時間範圍: ${startDate} ~ ${endDate}`);
 
-    const tvly = tavily({ apiKey: "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" });
+    const tvly = tavily({ apiKey: process.env.TAVILY_API_KEY });
 
     const searchPromises = TARGET_SITES.map(async (site) => {
         const query = `site:${site.domain} ( ${searchString} )`;

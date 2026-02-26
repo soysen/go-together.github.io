@@ -79,7 +79,7 @@ export async function POST(req: Request) {
     console.log(`搜尋關鍵字: ${searchString}`);
 
     // ===== Step 1: 先用 Tavily 搜尋 =====
-    const tvly = tavily({ apiKey: "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" });
+    const tvly = tavily({ apiKey: process.env.TAVILY_API_KEY });
     // ===== Step 1: 平行搜尋 (Parallel Search) =====
     // 策略：與其發一個大 request，不如發 5 個小 request，確保每個網站都有資料
     const searchPromises = TARGET_SITES.map(async (site) => {
