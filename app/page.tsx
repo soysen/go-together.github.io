@@ -199,25 +199,24 @@ export default function Home() {
                                     <span className="inline-block px-2 ml-1 py-0.5 rounded-full text-xs font-medium bg-mint text-menu mb-2">
                                         {event.sessions[0].location}
                                     </span>
-                                    <p  className="text-gray-600 dark:text-gray-300 mb-3 line-clamp-3 text-sm">{event.description}</p>
+                                    <p className="text-gray-600 dark:text-gray-300 mb-3 line-clamp-3 text-sm">{event.description}</p>
                                 </div>
-                                    {event.tags && event.tags.length > 0 && (
-                                        <div className="flex flex-wrap gap-1 mb-3">
-                                            {event.tags.slice(0, 3).map((tag, i) => (
-                                                <span
-                                                    key={i}
-                                                    onClick={(e) => { e.stopPropagation(); setActiveTag(tag); }}
-                                                    className={`px-1.5 py-0.5 text-[10px] rounded-full cursor-pointer transition-all duration-200 ${
-                                                        activeTag === tag
-                                                            ? 'bg-purple-600 text-white shadow-sm'
-                                                            : 'bg-gray-100 text-gray-500 dark:bg-gray-700 dark:text-gray-400 hover:bg-purple-100 hover:text-purple-600 dark:hover:bg-purple-900 dark:hover:text-purple-300'
+                                {event.tags && event.tags.length > 0 && (
+                                    <div className="flex flex-wrap gap-1 mb-3">
+                                        {event.tags.slice(0, 3).map((tag, i) => (
+                                            <span
+                                                key={i}
+                                                onClick={(e) => { e.stopPropagation(); setActiveTag(tag === activeTag ? null : tag); }}
+                                                className={`px-1.5 py-0.5 text-[10px] rounded-full cursor-pointer transition-all duration-200 ${activeTag === tag
+                                                        ? 'bg-purple-600 text-white shadow-sm'
+                                                        : 'bg-gray-100 text-gray-500 dark:bg-gray-700 dark:text-gray-400 hover:bg-purple-100 hover:text-purple-600 dark:hover:bg-purple-900 dark:hover:text-purple-300'
                                                     }`}
-                                                >
-                                                    #{tag}
-                                                </span>
-                                            ))}
-                                        </div>
-                                    )}
+                                            >
+                                                #{tag}
+                                            </span>
+                                        ))}
+                                    </div>
+                                )}
                                 <p className="flex text-xs text-black justify-between items-center font-medium justify-self-end">
                                     <span className='dark:text-white'>{event.sessions.length} 個場次</span> <span className="rounded-lg bg-gold px-2 py-1">點擊查看 →</span>
                                 </p>
