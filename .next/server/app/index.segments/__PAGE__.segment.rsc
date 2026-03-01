@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[47257,["/go-together.github.io/_next/static/chunks/2f236954d6a65e12.js"],"ClientPageRoot"]
+3:I[31713,["/go-together.github.io/_next/static/chunks/1b5770a4312c68f8.js"],"default"]
+6:I[97367,["/go-together.github.io/_next/static/chunks/2f236954d6a65e12.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"au4WspKY7XrNx4l4iaFn3","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/go-together.github.io/_next/static/chunks/1b5770a4312c68f8.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null
