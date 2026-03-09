@@ -101,7 +101,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/soysen/projects/go-together.github.io",
+    "outputFileTracingRoot": "/Users/i_nelsonchung/projects/go-together.github.io",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -294,11 +294,11 @@ self.__SERVER_FILES_MANIFEST={
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "/Users/soysen/projects/go-together.github.io"
+      "root": "/Users/i_nelsonchung/projects/go-together.github.io"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/Users/soysen/projects/go-together.github.io",
+  "appDir": "/Users/i_nelsonchung/projects/go-together.github.io",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
