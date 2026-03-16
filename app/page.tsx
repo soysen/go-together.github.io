@@ -29,13 +29,7 @@ export default function Home() {
     useEffect(() => {
         const fetchEvents = async () => {
             try {
-                // 如果是dev 環境則使用 api/chat
-                const isDev = process.env.NODE_ENV === 'development';
-                const response = await fetch(isDev ? '/api/chat' : './events.json', isDev ? {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ prompt: '查詢展覽' }),
-                } : {});
+                const response = await fetch('./events.json');
                 const data = await response.json();
 
                 if (!response.ok) {
