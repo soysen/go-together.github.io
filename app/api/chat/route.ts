@@ -103,7 +103,7 @@ export async function POST(req: Request) {
 			try {
 				const result = await tvly.search(query, {
 					// 這裡不需要 includeDomains 了，因為 query 裡已經用 site: 鎖定
-					maxResults: 15, // 每個網站只抓 6 筆最準的，5個站就有 30 筆
+					maxResults: 17, // 每個網站只抓 6 筆最準的，5個站就有 30 筆
 					search_depth: site.name === "BILLBOARD LIVE TAIPEI" ? "advanced" : "basic", // 省錢用 basic，如果要深挖改用 "advanced"
 				})
 				return result.results
@@ -133,7 +133,7 @@ export async function POST(req: Request) {
 		console.log(`[Tavily] 搜尋結果: ${searchContext}`)
 
 		const result = await generateObject({
-			model: google("gemini-3.1-flash-light"),
+			model: google("gemini-2.5-flash-lite"),
 			schema: EventSchema,
 			prompt: `
         你是一個嚴謹的活動資料提取員。
