@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[39756,["/go-together.github.io/_next/static/chunks/2f236954d6a65e12.js"],"default"]
 3:I[37457,["/go-together.github.io/_next/static/chunks/2f236954d6a65e12.js"],"default"]
-0:{"buildId":"Z8Il1J-A0vbRyRyzHhCVP","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"HDN_8c_4xYj1FId9x6Cek","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
