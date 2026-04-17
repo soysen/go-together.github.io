@@ -1,4 +1,4 @@
 :HL["/go-together.github.io/_next/static/chunks/053892e1b59f8394.css","style"]
-:HL["/go-together.github.io/_next/static/chunks/cc8b8023605449f1.css","style"]
+:HL["/go-together.github.io/_next/static/chunks/7d35a967b3e10ccb.css","style"]
 :HL["/go-together.github.io/_next/static/media/54539592aabd3c8a.p.edf55df4.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
-0:{"buildId":"HDN_8c_4xYj1FId9x6Cek","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"212j5quWdJrq4E1viijHL","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
