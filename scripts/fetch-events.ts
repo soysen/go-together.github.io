@@ -146,13 +146,14 @@ async function main() {
             【日期格式嚴格要求】
             請將活動日期轉換為 JSON String Array：
             1. **單日活動**：陣列只有一個元素。
-                範例：["2026-02-15"]
+                範例：["2026/02/15"]
             2. **連續/區間活動**：陣列有兩個元素，代表 [開始日期, 結束日期]。
-                範例：["2026-02-15", "2026-03-10"]
+                範例：["2026/02/15", "2026/03/10"]
 
             【過濾規則】
-            1. 嚴格捨棄：內文未提及日期、日期不在目標範圍內。
+            1. 嚴格捨棄：內文未提及具體日期、或所有日期均不在目標範圍內的活動。
             2. 雜訊排除：純粹的 "會員登入頁"、"購票須知"、"過期活動"。
+            3. 禁止造假：若內文只有年份而無具體月份和日期，請直接捨棄，絕對不可自行填寫跨年日期（如 ["2026/01/01", "2026/12/31"]）。
 
             【分類邏輯】
             1. 演唱會：包含 巡迴、Live、演唱會、見面會、音樂祭。
@@ -166,10 +167,29 @@ async function main() {
         `,
 	})
 
-	const events = result.object.events
+	let events = result.object.events
+
+	// 程式端二次過濾：確保留下有在目標時間之後結束的場次
+	const startDateStr = startDate.replace(/\//g, "") // e.g. "20260417"
+	events = events
+		.map(event => {
+			// 過濾場次
+			const validSessions = event.sessions.filter(session => {
+				const dates = session.date
+				if (!dates || dates.length === 0) return false
+				// 取得該場次的結束日期 (如果是單日就會是那個日期，如果是區間就會是第二個)
+				const lastDate = dates[dates.length - 1]
+				const lastDateStr = lastDate.replace(/\//g, "").replace(/-/g, "")
+				// 結束日期大於等於今天的 startDate 才是合理的未來/進行中活動
+				return lastDateStr >= startDateStr
+			})
+			return {...event, sessions: validSessions}
+		})
+		.filter(event => event.sessions.length > 0) // 捨棄完全沒有有效場次的活動
+
 	events.sort((a, b) => {
-		const dateA = new Date(a.sessions[0]?.date[0]).valueOf()
-		const dateB = new Date(b.sessions[0]?.date[0]).valueOf()
+		const dateA = new Date(a.sessions[0]?.date[0].replace(/\//g, "-")).valueOf()
+		const dateB = new Date(b.sessions[0]?.date[0].replace(/\//g, "-")).valueOf()
 		return dateA - dateB
 	})
 
