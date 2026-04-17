@@ -70,3 +70,9 @@ npm run build          # 建置靜態站點（自動先執行 fetch-events）
 ## Agent Skills
 
 已安裝 7 個 agent-skills（`.agents/skills/`），涵蓋 UI 開發、除錯、效能優化、code review 等面向。
+
+> **⚠️ 重要 Agent 開發規範：防範 LLM 幻覺與資料驗證**
+> 當 Agent 被指派實作或修改「牽涉到外部 API 或 LLM 結構化輸出（如 `fetch-events.ts`）」的功能時，必須：
+> 1. 主動將資料視為不可信任 (Untrusted Data)。
+> 2. 實作完成後，強制自主執行 `@[/code-review-and-quality]`。
+> 3. 特別查驗「**外部防護 (Security)**」與「**邊緣情況 (Correctness)**」，確保具備程式端 (TypeScript/Zod) 的二次強制過濾機制，絕不可單方面信賴 LLM 輸出的邏輯正確性。
