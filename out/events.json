@@ -1,253 +1,294 @@
 {
   "events": [
     {
-      "description": "《英雄聯盟》LCP 2026 Split 2 賽事將於 2026 年 4 月至 6 月在 LCP Arena 舉行。",
+      "description": "《英雄聯盟》LCP 2026 Split 2 賽事。",
       "title": "《英雄聯盟》LCP 2026 Split 2",
       "sessions": [
         {
           "location": "LCP Arena",
           "date": [
-            "2026/04",
-            "2026/06"
+            "2026/04/01",
+            "2026/06/30"
           ],
-          "url": "https://kktix.com/events?utf8=%E2%9C%93&search=LCP&start_at=2026%2F01%2F15"
+          "url": "https://kktix.com/events/vf444a13"
         }
       ],
-      "category": "其他",
+      "category": "生活休閒",
       "tags": [
-        "電競",
-        "賽事"
+        "英雄聯盟",
+        "電競"
       ],
-      "url": "https://kktix.com/events?utf8=%E2%9C%93&search=LCP&start_at=2026%2F01%2F15",
+      "url": "https://kktix.com/events/vf444a13",
       "source": "KKTIX"
     },
     {
-      "description": "音羽-otoha- 將於 2026 年舉辦亞洲巡演《LAST PLANET》中的 \"OUR PLANET〈additional〉\" 台北場。",
-      "title": "音羽-otoha- OUR PLANET additional in TAIPEI",
+      "description": "Centimillimental WORLD TOUR 2025-2026 “Cafuné” in Taipei，日本創作歌手Centimillimental的全新巡迴企劃。",
+      "title": "Centimillimental WORLD TOUR 2025-2026 “Cafuné”",
       "sessions": [
         {
           "location": "台北",
           "date": [
-            "2026/05",
-            "2026/06"
+            "2026/06/01"
           ],
-          "url": "https://kktix.com/events/e6fa4076"
+          "url": "https://kktix.com/events/b3c4517f"
         }
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會",
+        "Centimillimental",
         "巡迴"
       ],
-      "url": "https://kktix.com/events/e6fa4076",
+      "url": "https://kktix.com/events/b3c4517f",
       "source": "KKTIX"
     },
     {
-      "description": "VR體感劇院｜單元B《極限攀登2：阿爾卑斯》將於 2026/05/25 及 5/30 播放。",
-      "title": "VR體感劇院｜單元B《極限攀登2：阿爾卑斯》",
+      "description": "「性別內向、對未來毫無夢想的水嶋春人，邂逅了擁有天籟歌聲與音樂天賦的遠坂綾音。」",
+      "title": "妳最後留下的歌",
       "sessions": [
         {
-          "location": "VR體感劇院 360影廳",
+          "location": "高雄市電影館",
           "date": [
-            "2026/05/25",
-            "2026/05/30"
+            "2026/06/01"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P17U4GRL"
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AJRPHS"
         }
       ],
       "category": "其他",
       "tags": [
-        "VR",
-        "紀錄片"
+        "電影",
+        "愛情"
       ],
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P17U4GRL",
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AJRPHS",
       "source": "年代"
     },
     {
-      "description": "VR體感劇院｜《指揮大師養成記》將於 2026/05/25 播放。",
-      "title": "VR體感劇院｜《指揮大師養成記》",
+      "description": "漢斯·季默傳奇音樂會《全新境界》。",
+      "title": "漢斯·季默傳奇音樂會《全新境界》",
       "sessions": [
         {
           "location": "未知",
           "date": [
-            "2026/05/25"
+            "2026/06/02"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P17U4F4V"
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ASGZ2I"
         }
       ],
-      "category": "其他",
+      "category": "演唱會",
       "tags": [
-        "VR",
-        "互動遊戲"
+        "漢斯·季默",
+        "電影配樂"
       ],
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P17U4F4V",
-      "source": "年代"
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ASGZ2I",
+      "source": "寬宏"
     },
     {
-      "description": "全本音樂劇《歌劇魅影》將於 2026 年 5 月 26 日至 27 日在臺中國家歌劇院大劇院演出。",
-      "title": "全本音樂劇《歌劇魅影》",
+      "description": "The Phantom of the Opera 全本音樂劇。",
+      "title": "全本音樂劇《歌劇魅影》The Phantom of the Opera",
       "sessions": [
         {
           "location": "臺中國家歌劇院大劇院",
           "date": [
-            "2026/05/26",
-            "2026/05/27"
+            "2026/06/02"
+          ],
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P13CXC1H"
+        },
+        {
+          "location": "臺中國家歌劇院大劇院",
+          "date": [
+            "2026/06/03"
           ],
           "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P13CXC1H"
         }
       ],
       "category": "表演藝術",
       "tags": [
-        "音樂劇"
+        "音樂劇",
+        "歌劇魅影"
       ],
       "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P13CXC1H",
       "source": "寬宏"
     },
     {
-      "description": "自由之地楊烈世界巡迴演唱會將於 2026 年 5 月 27 日在衛武營國家藝術中心歌劇院舉行。",
-      "title": "自由之地楊烈世界巡迴演唱會",
+      "description": "全本音樂劇《歌劇魅影》The Phantom of the Opera，台中場。",
+      "title": "全本音樂劇《歌劇魅影》The Phantom of the Opera",
       "sessions": [
         {
-          "location": "衛武營國家藝術文化中心歌劇院",
+          "location": "臺中國家歌劇院大劇院",
           "date": [
-            "2026/05/27"
+            "2026/06/02"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0204_.aspx?PERFORMANCE_ID=P1442HHC&PRODUCT_ID=P140YE0L"
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P13CXC1H"
+        },
+        {
+          "location": "臺中國家歌劇院大劇院",
+          "date": [
+            "2026/06/03"
+          ],
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P13CXC1H"
+        }
+      ],
+      "category": "表演藝術",
+      "tags": [
+        "音樂劇",
+        "歌劇魅影"
+      ],
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P13CXC1H",
+      "source": "寬宏"
+    },
+    {
+      "description": "翁倩玉陽光般的60週年演唱會-時間之歌。",
+      "title": "翁倩玉陽光般的60週年演唱會-時間之歌",
+      "sessions": [
+        {
+          "location": "未知",
+          "date": [
+            "2026/06/04",
+            "2026/08/28"
+          ],
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0"
         }
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會",
-        "巡迴"
+        "翁倩玉",
+        "演唱會"
       ],
-      "url": "https://ticket.com.tw/application/UTK02/UTK0204_.aspx?PERFORMANCE_ID=P1442HHC&PRODUCT_ID=P140YE0L",
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
       "source": "年代"
     },
     {
-      "description": "薄荷綠工廠【 Stay or Go Tour 】2026 全新發行巡迴台中場將於 2026/05/31 舉行。",
-      "title": "薄荷綠工廠【 Stay or Go Tour 】2026 全新發行巡迴",
-      "sessions": [
-        {
-          "location": "台中",
-          "date": [
-            "2026/05/31"
-          ],
-          "url": "https://www.indievox.com/partner/search/Legacy%20Taichung"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會",
-        "巡迴"
-      ],
-      "url": "https://www.indievox.com/partner/search/Legacy%20Taichung",
-      "source": "iNDIEVOX"
-    },
-    {
-      "description": "慶記 KTV 五周年慶「台中流行音樂中心」將於 6 月 6 日在台中 Legacy 開張營業。",
-      "title": "慶記KTV 五周年",
-      "sessions": [
-        {
-          "location": "台中 Legacy",
-          "date": [
-            "2026/06/06"
-          ],
-          "url": "https://kktix.com/events/ifkrtgy"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會",
-        "派對"
-      ],
-      "url": "https://kktix.com/events/ifkrtgy",
-      "source": "KKTIX"
-    },
-    {
-      "description": "尋找心中的One Piece-2026惠文兒樂成果發表會將於 2026/06/06 舉行，由惠文國小兒童樂隊及打擊樂團演出。",
-      "title": "尋找心中的One Piece-2026惠文兒樂成果發表會",
+      "description": "八木海莉ONE-MAN LIVE 2026 in TAIPEI。",
+      "title": "八木海莉ONE-MAN LIVE 2026 in TAIPEI",
       "sessions": [
         {
           "location": "未知",
           "date": [
             "2026/06/06"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19STPMY"
+          "url": "https://ticketplus.com.tw/activity/827f6e979bf22206a887ea735a85fbdc"
         }
       ],
       "category": "演唱會",
       "tags": [
-        "成果發表會",
-        "兒童樂隊"
+        "八木海莉",
+        "LIVE"
       ],
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19STPMY",
-      "source": "年代"
-    },
-    {
-      "description": "再聽春風-2026歌謠詞人李臨秋紀念音樂會將於 2026/06/06 舉行，邀請歌手們重新詮釋李臨秋的經典作品。",
-      "title": "再聽春風-2026歌謠詞人李臨秋紀念音樂會",
-      "sessions": [
-        {
-          "location": "大稻埕戲苑 九樓劇場",
-          "date": [
-            "2026/06/06"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P190PKBL"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "紀念音樂會",
-        "台語歌曲"
-      ],
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P190PKBL",
-      "source": "年代"
-    },
-    {
-      "description": "Ryosuke Yamada ASIA TOUR 2026 Red.Y in Taipei 將於 2026 年 6 月 7 日舉行。",
-      "title": "Ryosuke Yamada ASIA TOUR 2026 Red.Y in Taipei",
-      "sessions": [
-        {
-          "location": "Taipei",
-          "date": [
-            "2026/06/07"
-          ],
-          "url": "https://ticketplus.com.tw/activity/f2c683acb81019ec190a59e8dc8bc9ef"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會",
-        "巡迴"
-      ],
-      "url": "https://ticketplus.com.tw/activity/f2c683acb81019ec190a59e8dc8bc9ef",
-      "source": "遠大"
-    },
-    {
-      "description": "Diana Wang 王詩安《AURORA極光演唱會》台北場將於 2026/06/12 舉行。",
-      "title": "Diana Wang 王詩安《AURORA極光演唱會》台北場",
-      "sessions": [
-        {
-          "location": "台北",
-          "date": [
-            "2026/06/12"
-          ],
-          "url": "https://www.indievox.com/activity/detail/26_iv0405427"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會"
-      ],
-      "url": "https://www.indievox.com/activity/detail/26_iv0405427",
+      "url": "https://ticketplus.com.tw/activity/827f6e979bf22206a887ea735a85fbdc",
       "source": "iNDIEVOX"
     },
     {
-      "description": "Matthew Ifield \"CLOSE TO YOUR HEART TOUR\" Live in Taipei 將於 2026 年 6 月 13 日在 Billboard Live TAIPEI 演出。",
+      "description": "2026 IRENE ASIA TOUR [ I-WILL ] in TAIPEI。",
+      "title": "2026 IRENE ASIA TOUR [ I-WILL ]",
+      "sessions": [
+        {
+          "location": "國立臺灣大學綜合體育館",
+          "date": [
+            "2026/06/06"
+          ],
+          "url": "https://ticketplus.com.tw/activity/b0771bbe3f4dfcb503d4f0677f633610"
+        },
+        {
+          "location": "國立臺灣大學綜合體育館",
+          "date": [
+            "2026/06/07"
+          ],
+          "url": "https://ticketplus.com.tw/activity/b0771bbe3f4dfcb503d4f0677f633610"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "IRENE",
+        "ASIA TOUR"
+      ],
+      "url": "https://ticketplus.com.tw/activity/b0771bbe3f4dfcb503d4f0677f633610",
+      "source": "iNDIEVOX"
+    },
+    {
+      "description": "Legacy Presents【2026鐵漢柔情】： 馬念先櫻桃可樂的滋味－台北場。",
+      "title": "Legacy Presents【2026鐵漢柔情】： 馬念先櫻桃可樂的滋味",
+      "sessions": [
+        {
+          "location": "Legacy Taipei",
+          "date": [
+            "2026/06/06"
+          ],
+          "url": "https://www.indievox.com/activity/detail/26_iv0400830"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "馬念先",
+        "演唱會"
+      ],
+      "url": "https://www.indievox.com/activity/detail/26_iv0400830",
+      "source": "iNDIEVOX"
+    },
+    {
+      "description": "2026年戶外街頭表演5-6月節目。",
+      "title": "2026年戶外街頭表演5-6月",
+      "sessions": [
+        {
+          "location": "華山1914文化創意產業園區",
+          "date": [
+            "2026/06/06"
+          ],
+          "url": "https://www.huashan1914.com/w/huashan1914/news_26052318060166225"
+        },
+        {
+          "location": "華山1914文化創意產業園區",
+          "date": [
+            "2026/06/13"
+          ],
+          "url": "https://www.huashan1914.com/w/huashan1914/news_26052318060166225"
+        },
+        {
+          "location": "華山1914文化創意產業園區",
+          "date": [
+            "2026/06/21"
+          ],
+          "url": "https://www.huashan1914.com/w/huashan1914/news_26052318060166225"
+        },
+        {
+          "location": "華山1914文化創意產業園區",
+          "date": [
+            "2026/06/28"
+          ],
+          "url": "https://www.huashan1914.com/w/huashan1914/news_26052318060166225"
+        }
+      ],
+      "category": "表演藝術",
+      "tags": [
+        "街頭表演"
+      ],
+      "url": "https://www.huashan1914.com/w/huashan1914/news_26052318060166225",
+      "source": "華山文創園區"
+    },
+    {
+      "description": "薄荷綠工廠【 Stay or Go Tour 】2026 全新發行巡迴高雄場。",
+      "title": "薄荷綠工廠【 Stay or Go Tour 】2026 全新發行巡迴",
+      "sessions": [
+        {
+          "location": "LIVE WAREHOUSE",
+          "date": [
+            "2026/06/10"
+          ],
+          "url": "https://www.indievox.com/partner/search/LIVE%20WAREHOUSE"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "薄荷綠工廠",
+        "巡迴"
+      ],
+      "url": "https://www.indievox.com/partner/search/LIVE%20WAREHOUSE",
+      "source": "iNDIEVOX"
+    },
+    {
+      "description": "Matthew Ifield \"CLOSE TO YOUR HEART TOUR\" Live in Taipei，澳洲暖聲新星Matthew Ifield首度降臨。",
       "title": "Matthew Ifield \"CLOSE TO YOUR HEART TOUR\" Live in Taipei",
       "sessions": [
         {
-          "location": "Billboard Live TAIPEI",
+          "location": "BILLBOARD LIVE TAIPEI",
           "date": [
             "2026/06/13"
           ],
@@ -256,18 +297,18 @@
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會",
+        "Matthew Ifield",
         "巡迴"
       ],
       "url": "https://www.billboardlivetaipei.tw/events/matthew-ifield2026",
       "source": "BILLBOARD LIVE TAIPEI"
     },
     {
-      "description": "XinU Live at Billboard Live TAIPEI 2026 將於 2026 年 6 月 17 日演出。",
+      "description": "XinU Live at Billboard Live TAIPEI 2026，日本都會女聲XinU首次登陸。",
       "title": "XinU Live at Billboard Live TAIPEI 2026",
       "sessions": [
         {
-          "location": "Billboard Live TAIPEI",
+          "location": "BILLBOARD LIVE TAIPEI",
           "date": [
             "2026/06/17"
           ],
@@ -276,17 +317,18 @@
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會"
+        "XinU",
+        "R&B"
       ],
       "url": "https://www.billboardlivetaipei.tw/events/xinu2026",
       "source": "BILLBOARD LIVE TAIPEI"
     },
     {
-      "description": "心與草——福夢 Unplug 巡演台中場將於 2026/06/18 舉行。",
+      "description": "心與草——福夢 Unplug 巡演台中場。",
       "title": "心與草——福夢 Unplug 巡演",
       "sessions": [
         {
-          "location": "台中",
+          "location": "Legacy Taichung",
           "date": [
             "2026/06/18"
           ],
@@ -295,37 +337,37 @@
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會",
-        "巡迴"
+        "福夢",
+        "巡演"
       ],
       "url": "https://www.indievox.com/partner/search/Legacy%20Taichung",
       "source": "iNDIEVOX"
     },
     {
-      "description": "創世祭 Awaken 2026 將於 2026 年 6 月 21 日舉行。",
-      "title": "創世祭 Awaken",
+      "description": "DERAGAYA! in 台北vol.2，演出地點為Corner House。",
+      "title": "DERAGAYA! in 台北",
       "sessions": [
         {
-          "location": "未知",
+          "location": "Corner House",
           "date": [
-            "2026/06/21"
+            "2026/06/20"
           ],
-          "url": "https://kktix.com/user/zyr0403?locale=en"
+          "url": "https://kktix.com/events/deragayatp260620"
         }
       ],
       "category": "演唱會",
       "tags": [
-        "音樂祭"
+        "DERAGAYA!"
       ],
-      "url": "https://kktix.com/user/zyr0403?locale=en",
+      "url": "https://kktix.com/events/deragayatp260620",
       "source": "KKTIX"
     },
     {
-      "description": "Salasa Live at Billboard Live TAIPEI 2026 將於 2026 年 6 月 21 日演出。",
+      "description": "Salasa Live at Billboard Live TAIPEI 2026，湘南R&B 酷女孩さらさ(Salasa) 首度個人專場。",
       "title": "Salasa Live at Billboard Live TAIPEI 2026",
       "sessions": [
         {
-          "location": "Billboard Live TAIPEI",
+          "location": "BILLBOARD LIVE TAIPEI",
           "date": [
             "2026/06/21"
           ],
@@ -334,318 +376,258 @@
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會"
+        "Salasa",
+        "R&B"
       ],
       "url": "https://www.billboardlivetaipei.tw/events/salasa2026",
       "source": "BILLBOARD LIVE TAIPEI"
     },
     {
-      "description": "2026新逸交響樂團年度公演Ⅱ 觀音線公益音樂會將於 2026/06/25 舉行，由許瀞心教授領銜，賴珏妤、陳若宸、李昀等音樂家參與演出。",
-      "title": "2026新逸交響樂團年度公演Ⅱ 觀音線公益音樂會",
+      "description": "華山》2026年度系列講座六月場「曾經華山跳蚤比人多？」。",
+      "title": "2026年度系列講座六月場「曾經華山跳蚤比人多？」",
       "sessions": [
         {
-          "location": "未知",
+          "location": "華山1914文化創意產業園區",
           "date": [
-            "2026/06/25"
+            "2026/06/24"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19DW6TM"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "古典音樂",
-        "公益音樂會"
-      ],
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19DW6TM",
-      "source": "年代"
-    },
-    {
-      "description": "Sou LIVE TOUR 2026「Finder」in Taipei 將於 6 月 27 日在 Zepp New Taipei 舉辦。",
-      "title": "Sou LIVE TOUR 2026「Finder」in Taipei",
-      "sessions": [
-        {
-          "location": "Zepp New Taipei",
-          "date": [
-            "2026/06/27"
-          ],
-          "url": "https://ticketplus.com.tw/activity/6b28656f4df8bd403e58f387a91fe1a2"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會",
-        "巡迴"
-      ],
-      "url": "https://ticketplus.com.tw/activity/6b28656f4df8bd403e58f387a91fe1a2",
-      "source": "遠大"
-    },
-    {
-      "description": "2026【高流金趴-K歌大包廂】將於 2026年6月27日（六）19:00 – 24:00 在高流 LIVE WAREHOUSE 大庫舉行。",
-      "title": "2026【高流金趴-K歌大包廂】",
-      "sessions": [
-        {
-          "location": "高流 LIVE WAREHOUSE 大庫",
-          "date": [
-            "2026/06/27"
-          ],
-          "url": "https://www.indievox.com/activity/detail/26_iv0405214"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會",
-        "派對"
-      ],
-      "url": "https://www.indievox.com/activity/detail/26_iv0405214",
-      "source": "iNDIEVOX"
-    },
-    {
-      "description": "SPYAIR 樂團將於 2026 年 6 月 28 日在 Legacy TERA 舉辦台北演唱會。",
-      "title": "SPYAIR LIVE",
-      "sessions": [
-        {
-          "location": "Legacy TERA",
-          "date": [
-            "2026/06/28"
-          ],
-          "url": "https://kktix.com/events?locale=ja&page=44"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會",
-        "搖滾"
-      ],
-      "url": "https://kktix.com/events?locale=ja&page=44",
-      "source": "KKTIX"
-    },
-    {
-      "description": "日本創作歌手 Centimillimental 將於 2026 年夏天帶著全新巡迴企劃登上台北舞台。",
-      "title": "Centimillimental WORLD TOUR 2025-2026 “Cafuné”",
-      "sessions": [
-        {
-          "location": "台北",
-          "date": [
-            "2026/07",
-            "2026/08"
-          ],
-          "url": "https://kktix.com/events/b3c4517f"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會",
-        "巡迴"
-      ],
-      "url": "https://kktix.com/events/b3c4517f",
-      "source": "KKTIX"
-    },
-    {
-      "description": "《菜冠雙Talk》於 2026 年 7 月 4 日舉辦。節目形式包含即興、歌唱、對決、實驗、博弈及互動企劃。",
-      "title": "《菜冠雙Talk》",
-      "sessions": [
-        {
-          "location": "卡米地Live Comedy Club Taipei",
-          "date": [
-            "2026/07/04"
-          ],
-          "url": "https://kktix.com/events/tsaiguan20260704"
-        }
-      ],
-      "category": "表演藝術",
-      "tags": [
-        "脫口秀",
-        "喜劇"
-      ],
-      "url": "https://kktix.com/events/tsaiguan20260704",
-      "source": "KKTIX"
-    },
-    {
-      "description": "高瀨統也 Billboard Live TAIPEI： 《 不插電之夜 — 與好友們的音樂對話 》將於 2026/07/04-2026/07/05 演出。",
-      "title": "高瀨統也 Billboard Live TAIPEI： 《 不插電之夜 — 與好友們的音樂對話 》",
-      "sessions": [
-        {
-          "location": "Billboard Live TAIPEI",
-          "date": [
-            "2026/07/04",
-            "2026/07/05"
-          ],
-          "url": "https://www.billboardlivetaipei.tw/events/takasetoya2026"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會",
-        "不插電"
-      ],
-      "url": "https://www.billboardlivetaipei.tw/events/takasetoya2026",
-      "source": "BILLBOARD LIVE TAIPEI"
-    },
-    {
-      "description": "「漫才少爺」太田、三木將於 7 月 5 日在台中舉辦夏季專場。",
-      "title": "漫才少爺夏季專場",
-      "sessions": [
-        {
-          "location": "台中",
-          "date": [
-            "2026/07/05"
-          ],
-          "url": "https://kktix.com/events/manzaitw20260705"
-        }
-      ],
-      "category": "表演藝術",
-      "tags": [
-        "漫才",
-        "喜劇"
-      ],
-      "url": "https://kktix.com/events/manzaitw20260705",
-      "source": "KKTIX"
-    },
-    {
-      "description": "SITCON 夏令營 2026 旨在透過各領域專家的帶領，提供密集的實戰體驗，協助參與者探索未來志向。",
-      "title": "SITCON 夏令營",
-      "sessions": [
-        {
-          "location": "未知",
-          "date": [
-            "2026/07/06"
-          ],
-          "url": "https://kktix.com/events?locale=ja&page=46"
+          "url": "https://www.huashan1914.com/w/huashan1914/exhibition?index=2"
         }
       ],
       "category": "生活休閒",
       "tags": [
-        "夏令營",
-        "營隊"
+        "講座",
+        "華山"
       ],
-      "url": "https://kktix.com/events?locale=ja&page=46",
+      "url": "https://www.huashan1914.com/w/huashan1914/exhibition?index=2",
+      "source": "華山文創園區"
+    },
+    {
+      "description": "華山》2026年度系列講座六月場「曾經華山跳蚤比人多？」。",
+      "title": "2026年度系列講座六月場「曾經華山跳蚤比人多？」",
+      "sessions": [
+        {
+          "location": "華山1914文化創意產業園區",
+          "date": [
+            "2026/06/24"
+          ],
+          "url": "https://www.huashan1914.com/w/huashan1914/news_26032614530575938"
+        }
+      ],
+      "category": "生活休閒",
+      "tags": [
+        "講座",
+        "華山"
+      ],
+      "url": "https://www.huashan1914.com/w/huashan1914/news_26032614530575938",
+      "source": "華山文創園區"
+    },
+    {
+      "description": "華山》2026年度系列講座六月場「曾經華山跳蚤比人多？」。",
+      "title": "2026年度系列講座六月場「曾經華山跳蚤比人多？」",
+      "sessions": [
+        {
+          "location": "華山1914文化創意產業園區",
+          "date": [
+            "2026/06/24"
+          ],
+          "url": "https://www.huashan1914.com/w/huashan1914/news_25110516473903221"
+        }
+      ],
+      "category": "生活休閒",
+      "tags": [
+        "講座",
+        "華山"
+      ],
+      "url": "https://www.huashan1914.com/w/huashan1914/news_25110516473903221",
+      "source": "華山文創園區"
+    },
+    {
+      "description": "華山》2026年度系列講座六月場「曾經華山跳蚤比人多？」。",
+      "title": "2026年度系列講座六月場「曾經華山跳蚤比人多？」",
+      "sessions": [
+        {
+          "location": "華山1914文化創意產業園區",
+          "date": [
+            "2026/06/24"
+          ],
+          "url": "https://www.huashan1914.com/w/huashan1914/news_26041711464479835"
+        }
+      ],
+      "category": "生活休閒",
+      "tags": [
+        "講座",
+        "華山"
+      ],
+      "url": "https://www.huashan1914.com/w/huashan1914/news_26041711464479835",
+      "source": "華山文創園區"
+    },
+    {
+      "description": "侏羅紀恐龍奇遇記展覽。",
+      "title": "侏羅紀恐龍奇遇記",
+      "sessions": [
+        {
+          "location": "國立臺灣科學教育館7樓南側特展區",
+          "date": [
+            "2026/06/26",
+            "2026/10/11"
+          ],
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AXSPZI"
+        }
+      ],
+      "category": "展覽",
+      "tags": [
+        "恐龍",
+        "展覽"
+      ],
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AXSPZI",
+      "source": "寬宏"
+    },
+    {
+      "description": "JANNABI 1st Asia Tour : Sweat & Stardust in Taipei，JANNABI 首次亞洲巡演。",
+      "title": "JANNABI 1st Asia Tour : Sweat & Stardust",
+      "sessions": [
+        {
+          "location": "台北",
+          "date": [
+            "2026/06/27"
+          ],
+          "url": "https://kktix.com?locale=en"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "JANNABI",
+        "亞洲巡演",
+        "K-POP"
+      ],
+      "url": "https://kktix.com?locale=en",
       "source": "KKTIX"
     },
     {
-      "description": "1500 SOUND ACADEMY 聲量音創學院舉辦創作營，以及張育瑞的跨界鋼琴演奏會，還有 PIZZALI 的演唱會。",
-      "title": "1500 SOUND ACADEMY 創作營 / 張育瑞鋼琴演奏會 / PIZZALI 演唱會",
+      "description": "CHIIKAWA DAYS 台北特展。",
+      "title": "CHIIKAWA DAYS 台北特展",
       "sessions": [
         {
           "location": "未知",
           "date": [
-            "2026/07/06"
+            "2026/07/03",
+            "2026/09/27"
           ],
-          "url": "https://kktix.com/events?event_tag_ids_in=13&page=8"
-        },
+          "url": "https://ticketplus.com.tw/activity/023cf42b479e058fc9e84a32ed6e7b91"
+        }
+      ],
+      "category": "展覽",
+      "tags": [
+        "特展",
+        "CHIIKAWA"
+      ],
+      "url": "https://ticketplus.com.tw/activity/023cf42b479e058fc9e84a32ed6e7b91",
+      "source": "iNDIEVOX"
+    },
+    {
+      "description": "黃・fan・fun Meeting - Junta & 愛TAIWAN - in Taipei。",
+      "title": "黃・fan・fun Meeting - Junta & 愛TAIWAN - in Taipei",
+      "sessions": [
         {
           "location": "未知",
           "date": [
-            "2026/07/08"
+            "2026/07/05",
+            "2026/07/12"
+          ],
+          "url": "https://ticketplus.com.tw/activity/b6e7c9077253584de0e73d4939df76fa"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "Junta",
+        "Fan Meeting"
+      ],
+      "url": "https://ticketplus.com.tw/activity/b6e7c9077253584de0e73d4939df76fa",
+      "source": "iNDIEVOX"
+    },
+    {
+      "description": "WILD WILD 2026 1ST FAN MEETING。",
+      "title": "WILD WILD 2026 1ST FAN MEETING",
+      "sessions": [
+        {
+          "location": "未知",
+          "date": [
+            "2026/07/11"
+          ],
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_040.aspx?AGID=P1A149QI"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "FAN MEETING"
+      ],
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_040.aspx?AGID=P1A149QI",
+      "source": "寬宏"
+    },
+    {
+      "description": "志崎樺音台北粉絲見面會。",
+      "title": "志崎樺音台北粉絲見面會",
+      "sessions": [
+        {
+          "location": "未知",
+          "date": [
+            "2026/07/12"
+          ],
+          "url": "https://ticketplus.com.tw"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "粉絲見面會"
+      ],
+      "url": "https://ticketplus.com.tw",
+      "source": "iNDIEVOX"
+    },
+    {
+      "description": "享譽國際的鋼琴家暨作曲家－小曾根真，以橫跨爵士與古典的獨特風格活躍於世界舞台。",
+      "title": "小曾根真TRiNFiNiTY with 小川晉平& 北井譽人",
+      "sessions": [
+        {
+          "location": "BILLBOARD LIVE TAIPEI",
+          "date": [
+            "2026/07/21"
+          ],
+          "url": "https://www.billboardlivetaipei.tw/events/makotoozone2026"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "小曾根真",
+        "爵士",
+        "古典"
+      ],
+      "url": "https://www.billboardlivetaipei.tw/events/makotoozone2026",
+      "source": "BILLBOARD LIVE TAIPEI"
+    },
+    {
+      "description": "Fuji Rock Festival 2026，日本最大規模的年度搖滾音樂盛典。",
+      "title": "Fuji Rock Festival 2026",
+      "sessions": [
+        {
+          "location": "未知",
+          "date": [
+            "2026/07/24",
+            "2026/07/26"
           ],
           "url": "https://kktix.com/events?event_tag_ids_in=13&page=8"
         }
       ],
       "category": "演唱會",
       "tags": [
-        "創作營",
-        "鋼琴演奏會",
-        "演唱會"
+        "搖滾",
+        "音樂祭"
       ],
       "url": "https://kktix.com/events?event_tag_ids_in=13&page=8",
       "source": "KKTIX"
     },
     {
-      "description": "漫才歐噴麥將於 2026 年 7 月 9 日在 Comedy Plus 卡米地＋舉行。票價包含飲料與爆米花。",
-      "title": "漫才歐噴麥",
-      "sessions": [
-        {
-          "location": "Comedy Plus 卡米地＋",
-          "date": [
-            "2026/07/09"
-          ],
-          "url": "https://kktix.com/events/manzaiopenmic"
-        }
-      ],
-      "category": "表演藝術",
-      "tags": [
-        "漫才",
-        "喜劇"
-      ],
-      "url": "https://kktix.com/events/manzaiopenmic",
-      "source": "KKTIX"
-    },
-    {
-      "description": "WILD WILD 2026 1ST FAN LIVE in Taipei 於 7 月 10 日及 11 日舉行。",
-      "title": "WILD WILD 2026 1ST FAN LIVE in Taipei",
-      "sessions": [
-        {
-          "location": "Taipei",
-          "date": [
-            "2026/07/10"
-          ],
-          "url": "https://kham.com.tw/application/UTK01/UTK0101_06.aspx?TYPE=1&CATEGORY=98"
-        },
-        {
-          "location": "Taipei",
-          "date": [
-            "2026/07/11"
-          ],
-          "url": "https://kham.com.tw/application/UTK01/UTK0101_06.aspx?TYPE=1&CATEGORY=98"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會",
-        "粉絲見面會"
-      ],
-      "url": "https://kham.com.tw/application/UTK01/UTK0101_06.aspx?TYPE=1&CATEGORY=98",
-      "source": "寬宏"
-    },
-    {
-      "description": "2026 鄭宜農 Enno Cheng《缺與圓之後 Inter-Phases》台北演唱會將於 2026/07/17 舉行。",
-      "title": "2026 鄭宜農 Enno Cheng《缺與圓之後 Inter-Phases》台北演唱會",
-      "sessions": [
-        {
-          "location": "台北",
-          "date": [
-            "2026/07/17"
-          ],
-          "url": "https://www.indievox.com/activity/detail/26_iv0401040"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會"
-      ],
-      "url": "https://www.indievox.com/activity/detail/26_iv0401040",
-      "source": "iNDIEVOX"
-    },
-    {
-      "description": "《Instrumental / Vocal》大象體操「器樂／人聲」雙專場巡迴將於 2026/07/24-2026/07/25 在 Legacy Taipei 及 Legacy Taichung 舉行。",
-      "title": "《Instrumental / Vocal》大象體操「器樂／人聲」雙專場巡迴",
-      "sessions": [
-        {
-          "location": "Legacy Taipei",
-          "date": [
-            "2026/07/24",
-            "2026/07/25"
-          ],
-          "url": "https://www.indievox.com/activity/detail/26_iv0397792"
-        },
-        {
-          "location": "Legacy Taichung",
-          "date": [
-            "2026/07/24",
-            "2026/07/25"
-          ],
-          "url": "https://www.indievox.com/activity/detail/26_iv0397792"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會",
-        "巡迴"
-      ],
-      "url": "https://www.indievox.com/activity/detail/26_iv0397792",
-      "source": "iNDIEVOX"
-    },
-    {
-      "description": "2026世界合唱比賽行前音樂會將於 2026/07/25 在衛武營國家藝術文化中心音樂廳舉行，由尼布恩合唱團、寶來國中合唱團等代表台灣參賽。",
+      "description": "2026世界合唱比賽行前音樂會，由尼布恩合唱團、寶來國中合唱團演出。",
       "title": "2026世界合唱比賽行前音樂會",
       "sessions": [
         {
@@ -665,46 +647,7 @@
       "source": "年代"
     },
     {
-      "description": "MISIA星空現場XIII GRAND HORIZON 台北公演將於 2026年7月25日舉行。",
-      "title": "MISIA星空現場XIII GRAND HORIZON 台北公演",
-      "sessions": [
-        {
-          "location": "台北",
-          "date": [
-            "2026/07/25"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P17C44OR"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會"
-      ],
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P17C44OR",
-      "source": "年代"
-    },
-    {
-      "description": "2026 洪榮宏舊情綿綿演唱會將於 2026/07/25 及 7/26 在台北國際會議中心大會堂舉行。",
-      "title": "2026 洪榮宏舊情綿綿演唱會",
-      "sessions": [
-        {
-          "location": "台北國際會議中心大會堂",
-          "date": [
-            "2026/07/25",
-            "2026/07/26"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15HP2TI"
-        }
-      ],
-      "category": "演唱會",
-      "tags": [
-        "演唱會"
-      ],
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P15HP2TI",
-      "source": "年代"
-    },
-    {
-      "description": "Reol Oneman Live 2026 美辭學in TAIPEI 將於 7 月 26 日在 Zepp New Taipei 舉辦。",
+      "description": "Reol Oneman Live 2026 美辭學in TAIPEI，電音系創作歌手Reol的專場演出。",
       "title": "Reol Oneman Live 2026 美辭學in TAIPEI",
       "sessions": [
         {
@@ -712,61 +655,311 @@
           "date": [
             "2026/07/26"
           ],
-          "url": "https://ticketplus.com.tw/activity/c387419a11625bfbaeb30a8784d5f042"
+          "url": "https://ticketplus.com.tw/activity/b88c4f9fa6bcb2b035f31b9802bed700"
         }
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會"
+        "Reol",
+        "Oneman Live"
       ],
-      "url": "https://ticketplus.com.tw/activity/c387419a11625bfbaeb30a8784d5f042",
-      "source": "遠大"
+      "url": "https://ticketplus.com.tw/activity/b88c4f9fa6bcb2b035f31b9802bed700",
+      "source": "iNDIEVOX"
     },
     {
-      "description": "「2026年國際沈文程日-小琉球情歌演唱會」將於 2026/08/01 在臺南文化中心演藝廳舉行。",
-      "title": "「2026年國際沈文程日-小琉球情歌演唱會」",
+      "description": "ART OF MIKU 台北展覽，包含VIP貴賓日與公眾展期。",
+      "title": "ART OF MIKU",
       "sessions": [
         {
-          "location": "臺南文化中心演藝廳",
+          "location": "台北",
+          "date": [
+            "2026/07/31",
+            "2026/08/23"
+          ],
+          "url": "https://kktix.com/events/artofmikufirststage0816"
+        }
+      ],
+      "category": "展覽",
+      "tags": [
+        "Miku"
+      ],
+      "url": "https://kktix.com/events/artofmikufirststage0816",
+      "source": "KKTIX"
+    },
+    {
+      "description": "《菜冠雙Talk》2026年8月號，沒有段子的喜劇現場，包含即興、歌唱、對決、實驗、博弈及互動企劃。",
+      "title": "《菜冠雙Talk》2026年8月號",
+      "sessions": [
+        {
+          "location": "未知",
           "date": [
             "2026/08/01"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW"
+          "url": "https://kktix.com/events?category_id=4&locale=ja&page=27"
+        }
+      ],
+      "category": "表演藝術",
+      "tags": [
+        "喜劇",
+        "即興"
+      ],
+      "url": "https://kktix.com/events?category_id=4&locale=ja&page=27",
+      "source": "KKTIX"
+    },
+    {
+      "description": "2026 迷走大學實體課程《這邊可以講台北八月場》是迷走大學團隊的現場課程。",
+      "title": "2026 迷走大學實體課程《這邊可以講台北八月場》",
+      "sessions": [
+        {
+          "location": "未知",
+          "date": [
+            "2026/08/01"
+          ],
+          "url": "https://kktix.com/events/meisouniv20260806"
+        }
+      ],
+      "category": "生活休閒",
+      "tags": [
+        "課程",
+        "講座"
+      ],
+      "url": "https://kktix.com/events/meisouniv20260806",
+      "source": "KKTIX"
+    },
+    {
+      "description": "2026 RYEOWOOK'S AGIT CONCERT",
+      "title": "2026 RYEOWOOK'S AGIT CONCERT",
+      "sessions": [
+        {
+          "location": "未知",
+          "date": [
+            "2026/08/01"
+          ],
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_040.aspx?AGID=P1B1M0CK"
         }
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會"
+        "RYEOWOOK",
+        "AGIT CONCERT"
       ],
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_040.aspx?AGID=P1B1M0CK",
+      "source": "寬宏"
+    },
+    {
+      "description": "2026年度全台灣太鼓分組錦標賽。",
+      "title": "2026年度全台灣太鼓分組錦標賽",
+      "sessions": [
+        {
+          "location": "未知",
+          "date": [
+            "2026/08/01"
+          ],
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1A6ZOUM"
+        }
+      ],
+      "category": "生活休閒",
+      "tags": [
+        "太鼓",
+        "比賽"
+      ],
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1A6ZOUM",
       "source": "年代"
     },
     {
-      "description": "sukekiyo TOUR2026 in Taipei 將於 2026 年 8 月舉行。",
-      "title": "sukekiyo TOUR2026 in Taipei",
+      "description": "王建傑2026傑然不同演唱會。",
+      "title": "王建傑2026傑然不同演唱會",
       "sessions": [
         {
-          "location": "Taipei",
+          "location": "高雄海洋流行音樂中心",
           "date": [
-            "2026/08"
+            "2026/08/01"
           ],
-          "url": "https://ticketplus.com.tw/activity/6431fa3bfc072235e636123144de0c48"
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P16JD5TN"
         }
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會",
-        "巡迴"
+        "王建傑",
+        "演唱會"
       ],
-      "url": "https://ticketplus.com.tw/activity/6431fa3bfc072235e636123144de0c48",
-      "source": "遠大"
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P16JD5TN",
+      "source": "年代"
     },
     {
-      "description": "Yuko Ando Live at Billboard Live TAIPEI 2026 將於 2026 年 8 月 8 日演出。",
+      "description": "舞動仲夏・榮耀盛典｜朱怡慧舞團2026年度公演。",
+      "title": "朱怡慧舞團2026年度公演",
+      "sessions": [
+        {
+          "location": "未知",
+          "date": [
+            "2026/08/01"
+          ],
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P18JCFDS"
+        }
+      ],
+      "category": "表演藝術",
+      "tags": [
+        "舞蹈",
+        "芭蕾"
+      ],
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P18JCFDS",
+      "source": "年代"
+    },
+    {
+      "description": "2026新逸交響樂團年度公演，包含古典、歌劇與跨界流行曲目。",
+      "title": "2026新逸交響樂團年度公演",
+      "sessions": [
+        {
+          "location": "未知",
+          "date": [
+            "2026/08/01"
+          ],
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AOGU29"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "交響樂",
+        "古典"
+      ],
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AOGU29",
+      "source": "年代"
+    },
+    {
+      "description": "DAMONS YEAR 2026 LIVE IN TAIPEI，帶著全新專輯《CORPUS 0》的演出。",
+      "title": "DAMONS YEAR 2026 LIVE IN TAIPEI",
+      "sessions": [
+        {
+          "location": "BILLBOARD LIVE TAIPEI",
+          "date": [
+            "2026/08/01"
+          ],
+          "url": "https://www.billboardlivetaipei.tw/events/damonsyear2026"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "DAMONS YEAR",
+        "LIVE"
+      ],
+      "url": "https://www.billboardlivetaipei.tw/events/damonsyear2026",
+      "source": "BILLBOARD LIVE TAIPEI"
+    },
+    {
+      "description": "【2026華山親子表藝節】福德隆劇場《把書吃掉｜西遊太空篇》。",
+      "title": "【2026華山親子表藝節】福德隆劇場《把書吃掉｜西遊太空篇》",
+      "sessions": [
+        {
+          "location": "華山1914文化創意產業園區",
+          "date": [
+            "2026/08/01"
+          ],
+          "url": "https://www.huashan1914.com/w/huashan1914/exhibition_17082820103269618"
+        }
+      ],
+      "category": "表演藝術",
+      "tags": [
+        "親子",
+        "戲劇"
+      ],
+      "url": "https://www.huashan1914.com/w/huashan1914/exhibition_17082820103269618",
+      "source": "華山文創園區"
+    },
+    {
+      "description": "《Lost in Grey》2016年參與英國愛丁堡藝穗節大受好評，並於今年8月將赴韓國參加首爾創舞國際藝術節演出。另有【2026華山親子表藝節】台北打擊樂團《擁抱海洋永續親子。",
+      "title": "滯留島舞蹈劇場《Lost in Grey》",
+      "sessions": [
+        {
+          "location": "華山1914文化創意產業園區",
+          "date": [
+            "2026/08/01"
+          ],
+          "url": "https://www.huashan1914.com/w/huashan1914/exhibition_17082820164712942"
+        }
+      ],
+      "category": "表演藝術",
+      "tags": [
+        "舞蹈",
+        "肢體劇場"
+      ],
+      "url": "https://www.huashan1914.com/w/huashan1914/exhibition_17082820164712942",
+      "source": "華山文創園區"
+    },
+    {
+      "description": "李斯特．救贖之旅 鋼琴獨奏會。",
+      "title": "李斯特．救贖之旅",
+      "sessions": [
+        {
+          "location": "衛武營國家藝術文化中心表演廳",
+          "date": [
+            "2026/08/02"
+          ],
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19S853P"
+        }
+      ],
+      "category": "表演藝術",
+      "tags": [
+        "鋼琴",
+        "獨奏會"
+      ],
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19S853P",
+      "source": "年代"
+    },
+    {
+      "description": "Q來Q去2026落日飛車亞洲巡迴高雄站。",
+      "title": "Q來Q去 2026落日飛車亞洲巡迴",
+      "sessions": [
+        {
+          "location": "高雄",
+          "date": [
+            "2026/08/08"
+          ],
+          "url": "https://kktix.com/events?event_tag_ids_in=1&page=12"
+        },
+        {
+          "location": "高雄",
+          "date": [
+            "2026/08/09"
+          ],
+          "url": "https://kktix.com/events?event_tag_ids_in=1&page=12"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "落日飛車",
+        "亞洲巡迴",
+        "高雄"
+      ],
+      "url": "https://kktix.com/events?event_tag_ids_in=1&page=12",
+      "source": "KKTIX"
+    },
+    {
+      "description": "台新銀行許富凱一五一拾台北小巨蛋演唱會。",
+      "title": "台新銀行許富凱《一五一拾》演唱會",
+      "sessions": [
+        {
+          "location": "臺北小巨蛋",
+          "date": [
+            "2026/08/08"
+          ],
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19G6DDA"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "許富凱",
+        "演唱會"
+      ],
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19G6DDA",
+      "source": "寬宏"
+    },
+    {
+      "description": "Yuko Ando Live at Billboard Live TAIPEI 2026，異色才女「安藤裕子」重磅降臨。",
       "title": "Yuko Ando Live at Billboard Live TAIPEI 2026",
       "sessions": [
         {
-          "location": "Billboard Live TAIPEI",
+          "location": "BILLBOARD LIVE TAIPEI",
           "date": [
             "2026/08/08"
           ],
@@ -775,17 +968,38 @@
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會"
+        "Yuko Ando",
+        "安藤裕子"
       ],
       "url": "https://www.billboardlivetaipei.tw/tw/events/yukoando2026",
       "source": "BILLBOARD LIVE TAIPEI"
     },
     {
-      "description": "Punipunidenki featuring Alan Kwan Live at Billboard Live TAIPEI 2026 將於 2026 年 8 月 9 日演出。",
+      "description": "Super Robot 魂2026 in Taipei。",
+      "title": "Super Robot 魂2026 in Taipei",
+      "sessions": [
+        {
+          "location": "未知",
+          "date": [
+            "2026/08/09"
+          ],
+          "url": "https://ticketplus.com.tw/activity/023cf42b479e058fc9e84a32ed6e7b91"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "Super Robot",
+        "演唱會"
+      ],
+      "url": "https://ticketplus.com.tw/activity/023cf42b479e058fc9e84a32ed6e7b91",
+      "source": "iNDIEVOX"
+    },
+    {
+      "description": "Punipunidenki featuring Alan Kwan Live at Billboard Live TAIPEI 2026。",
       "title": "Punipunidenki featuring Alan Kwan Live at Billboard Live TAIPEI 2026",
       "sessions": [
         {
-          "location": "Billboard Live TAIPEI",
+          "location": "BILLBOARD LIVE TAIPEI",
           "date": [
             "2026/08/09"
           ],
@@ -794,89 +1008,111 @@
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會"
+        "Punipunidenki",
+        "Alan Kwan"
       ],
       "url": "https://www.billboardlivetaipei.tw/events/punipunidenki2026",
       "source": "BILLBOARD LIVE TAIPEI"
     },
     {
-      "description": "Furui Riho Billboard Live Tour 2026 -The Garden- in TAIPEI 將於 2026 年 9 月 26 日演出。",
-      "title": "Furui Riho Billboard Live Tour 2026 -The Garden- in TAIPEI",
+      "description": "漫才歐噴麥，於Comedy Plus卡米地＋演出。",
+      "title": "漫才歐噴麥",
       "sessions": [
         {
-          "location": "Billboard Live TAIPEI",
+          "location": "Comedy Plus 卡米地＋",
           "date": [
-            "2026/09/26"
+            "2026/08/13"
           ],
-          "url": "https://www.billboardlivetaipei.tw/events/furuiriho2026"
+          "url": "https://kktix.com/events/manzaiopenmic"
         }
       ],
-      "category": "演唱會",
+      "category": "表演藝術",
       "tags": [
-        "演唱會",
-        "巡迴"
+        "漫才",
+        "喜劇"
       ],
-      "url": "https://www.billboardlivetaipei.tw/events/furuiriho2026",
-      "source": "BILLBOARD LIVE TAIPEI"
-    },
-    {
-      "description": "2026 福音更新論壇 CTC Taiwan 即將於 2026/10/12-2026/10/15 開辦，旨在推動以福音為中心的教會更新與植堂運動。",
-      "title": "福音更新論壇",
-      "sessions": [
-        {
-          "location": "未知",
-          "date": [
-            "2026/10/12",
-            "2026/10/15"
-          ],
-          "url": "https://kktix.com/events?locale=ja&page=55&search="
-        }
-      ],
-      "category": "生活休閒",
-      "tags": [
-        "論壇",
-        "講座"
-      ],
-      "url": "https://kktix.com/events?locale=ja&page=55&search=",
+      "url": "https://kktix.com/events/manzaiopenmic",
       "source": "KKTIX"
     },
     {
-      "description": "永遠的巨星 謝雷 2026演唱會將於 2026/10/17 在高雄市文化中心至德堂舉行，並邀請朗嘎拉姆及謝家班共同演出。",
-      "title": "永遠的巨星 謝雷 2026演唱會",
+      "description": "雄頌管弦樂團音樂會-愛與命運-柴可夫斯基之樂。",
+      "title": "雄頌管弦樂團音樂會-愛與命運-柴可夫斯基之樂",
       "sessions": [
         {
-          "location": "高雄市文化中心至德堂",
+          "location": "高雄市文化中心至樂廳",
           "date": [
-            "2026/10/17"
+            "2026/08/16"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1A9C2II"
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19CDUHI"
         }
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會"
+        "管弦樂",
+        "柴可夫斯基"
       ],
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1A9C2II",
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19CDUHI",
       "source": "年代"
     },
     {
-      "description": "Jason Mraz ASIA TOUR 2026 IN TAIPEI 將於 2026/11/02 在台北舉行。",
-      "title": "Jason Mraz ASIA TOUR 2026 IN TAIPEI",
+      "description": "envy Asia Tour 2026 in Taipei，envy 台北專場演唱會。",
+      "title": "envy Asia Tour 2026",
       "sessions": [
         {
-          "location": "台北",
+          "location": "The Wall Live House",
           "date": [
-            "2026/11/02"
+            "2026/08/21"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA"
+          "url": "https://kktix.com/events/envy2026"
         }
       ],
       "category": "演唱會",
       "tags": [
-        "演唱會",
+        "envy",
+        "專場"
+      ],
+      "url": "https://kktix.com/events/envy2026",
+      "source": "KKTIX"
+    },
+    {
+      "description": "李國修紀念作品《半里長城》笑噴版台北加演場。",
+      "title": "李國修紀念作品《半里長城》笑噴版",
+      "sessions": [
+        {
+          "location": "臺北表演藝術中心大劇院",
+          "date": [
+            "2026/08/28",
+            "2026/08/30"
+          ],
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P17IDZEW"
+        }
+      ],
+      "category": "表演藝術",
+      "tags": [
+        "舞台劇",
+        "李國修"
+      ],
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P17IDZEW",
+      "source": "寬宏"
+    },
+    {
+      "description": "Jason Mraz ASIA TOUR 2026 IN TAIPEI。",
+      "title": "Jason Mraz ASIA TOUR 2026",
+      "sessions": [
+        {
+          "location": "台北南港展覽館一館四樓",
+          "date": [
+            "2026/11/02"
+          ],
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_00.aspx?PRODUCT_ID=P1AT93WA"
+        }
+      ],
+      "category": "演唱會",
+      "tags": [
+        "Jason Mraz",
         "巡迴"
       ],
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA",
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_00.aspx?PRODUCT_ID=P1AT93WA",
       "source": "年代"
     }
   ]
