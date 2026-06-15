@@ -71,7 +71,7 @@ const EventSchema = z.object({
 				.describe(
 					'活動的主標題，請移除 "台北站"、"高雄場" 等後綴，保留核心名稱。例如："五月天 [回到那一天] 巡迴演唱會"',
 				),
-			image_url: z.string().optional(), // 如果有的話
+			image_url: z.string().nullish(), // 允許 null 或未提供
 			sessions: z
 				.array(
 					z.object({
