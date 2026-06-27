@@ -2,30 +2,30 @@
  * Pre-build script: fetches events from Tavily + Google AI and saves to public/events.json
  * Run with: npx tsx scripts/fetch-events.ts
  */
-import {config} from "dotenv"
-import {resolve} from "path"
+import { config } from "dotenv"
+import { resolve } from "path"
 
 // Load .env.local explicitly
-config({path: resolve(__dirname, "../.env")})
+config({ path: resolve(__dirname, "../.env") })
 
-import {generateObject} from "ai"
-import {createGoogleGenerativeAI} from "@ai-sdk/google"
-import {tavily} from "@tavily/core"
-import {z} from "zod"
-import {writeFileSync} from "fs"
+import { generateObject } from "ai"
+import { createGoogleGenerativeAI } from "@ai-sdk/google"
+import { tavily } from "@tavily/core"
+import { z } from "zod"
+import { writeFileSync } from "fs"
 
 const googleAI = createGoogleGenerativeAI({
 	apiKey: process.env.GOOGLE_GENERATIVE_AI_API_KEY!,
 })
 
 const TARGET_SITES = [
-	{name: "KKTIX", domain: "kktix.com"},
-	{name: "寬宏", domain: "kham.com.tw"},
-	{name: "年代", domain: "ticket.com.tw"},
-	{name: "遠大", domain: "ticketplus.com.tw"},
-	{name: "iNDIEVOX", domain: "indievox.com"},
-	{name: "BILLBOARD LIVE TAIPEI", domain: "billboardlivetaipei.tw"},
-	{name: "華山文創園區", domain: "huashan1914.com"},
+	{ name: "KKTIX", domain: "kktix.com" },
+	{ name: "寬宏", domain: "kham.com.tw" },
+	{ name: "年代", domain: "ticket.com.tw" },
+	{ name: "遠大", domain: "ticketplus.com.tw" },
+	{ name: "iNDIEVOX", domain: "indievox.com" },
+	{ name: "BILLBOARD LIVE TAIPEI", domain: "billboardlivetaipei.tw" },
+	{ name: "華山文創園區", domain: "huashan1914.com" },
 ]
 
 const EventCategoryEnum = z.enum(["演唱會", "展覽", "表演藝術", "生活休閒", "其他"])
@@ -59,7 +59,7 @@ function getDynamicDateParams() {
 
 	const searchString = monthKeywords.join(" OR ")
 
-	return {startDate, endDate, searchString}
+	return { startDate, endDate, searchString }
 }
 
 const EventSchema = z.object({
@@ -94,10 +94,10 @@ const EventSchema = z.object({
 })
 
 async function main() {
-	const {startDate, endDate, searchString} = getDynamicDateParams()
+	const { startDate, endDate, searchString } = getDynamicDateParams()
 	console.log(`🔍 搜尋時間範圍: ${startDate} ~ ${endDate}`)
 
-	const tvly = tavily({apiKey: process.env.TAVILY_API_KEY})
+	const tvly = tavily({ apiKey: process.env.TAVILY_API_KEY })
 
 	const searchPromises = TARGET_SITES.map(async site => {
 		const query = `site:${site.domain} ( ${searchString} )`
@@ -123,7 +123,7 @@ async function main() {
 		.join("\n\n---\n\n")
 
 	const result = await generateObject({
-		model: googleAI("gemini-2.5-flash-lite"),
+		model: googleAI("gemini-3.1-flash-lite"),
 		schema: EventSchema,
 		prompt: `
             你是一個嚴謹的活動資料提取員。
@@ -183,7 +183,7 @@ async function main() {
 				// 結束日期大於等於今天的 startDate 才是合理的未來/進行中活動
 				return lastDateStr >= startDateStr
 			})
-			return {...event, sessions: validSessions}
+			return { ...event, sessions: validSessions }
 		})
 		.filter(event => event.sessions.length > 0) // 捨棄完全沒有有效場次的活動
 
@@ -194,7 +194,7 @@ async function main() {
 	})
 
 	const outPath = resolve(__dirname, "../public/events.json")
-	writeFileSync(outPath, JSON.stringify({events}, null, 2), "utf-8")
+	writeFileSync(outPath, JSON.stringify({ events }, null, 2), "utf-8")
 	console.log(`✅ 已寫入 ${events.length} 筆活動到 ${outPath}`)
 }
 

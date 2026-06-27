@@ -1,16 +1,16 @@
-import {generateObject} from "ai"
-import {google} from "@ai-sdk/google"
-import {tavily} from "@tavily/core"
-import {z} from "zod"
+import { generateObject } from "ai"
+import { google } from "@ai-sdk/google"
+import { tavily } from "@tavily/core"
+import { z } from "zod"
 
 const TARGET_SITES = [
-	{name: "KKTIX", domain: "kktix.com"},
-	{name: "寬宏", domain: "kham.com.tw"},
-	{name: "年代", domain: "ticket.com.tw"},
-	{name: "遠大", domain: "ticketplus.com.tw"},
-	{name: "iNDIEVOX", domain: "indievox.com"},
-	{name: "BILLBOARD LIVE TAIPEI", domain: "billboardlivetaipei.tw"},
-	{name: "華山文創園區", domain: "huashan1914.com"},
+	{ name: "KKTIX", domain: "kktix.com" },
+	{ name: "寬宏", domain: "kham.com.tw" },
+	{ name: "年代", domain: "ticket.com.tw" },
+	{ name: "遠大", domain: "ticketplus.com.tw" },
+	{ name: "iNDIEVOX", domain: "indievox.com" },
+	{ name: "BILLBOARD LIVE TAIPEI", domain: "billboardlivetaipei.tw" },
+	{ name: "華山文創園區", domain: "huashan1914.com" },
 ]
 export const EventCategoryEnum = z.enum([
 	"演唱會",
@@ -49,7 +49,7 @@ function getDynamicDateParams() {
 
 	const searchString = monthKeywords.join(" OR ")
 
-	return {startDate, endDate, searchString}
+	return { startDate, endDate, searchString }
 }
 
 const EventSchema = z.object({
@@ -85,14 +85,14 @@ const EventSchema = z.object({
 
 export async function POST(req: Request) {
 	try {
-		const {prompt} = await req.json()
-		const {startDate, endDate, searchString} = getDynamicDateParams()
+		const { prompt } = await req.json()
+		const { startDate, endDate, searchString } = getDynamicDateParams()
 
 		console.log(`正在搜尋時間範圍: ${startDate} ~ ${endDate}`)
 		console.log(`搜尋關鍵字: ${searchString}`)
 
 		// ===== Step 1: 先用 Tavily 搜尋 =====
-		const tvly = tavily({apiKey: process.env.TAVILY_API_KEY})
+		const tvly = tavily({ apiKey: process.env.TAVILY_API_KEY })
 		// ===== Step 1: 平行搜尋 (Parallel Search) =====
 		// 策略：與其發一個大 request，不如發 5 個小 request，確保每個網站都有資料
 		const searchPromises = TARGET_SITES.map(async site => {
@@ -133,7 +133,7 @@ export async function POST(req: Request) {
 		console.log(`[Tavily] 搜尋結果: ${searchContext}`)
 
 		const result = await generateObject({
-			model: google("gemini-2.5-flash-lite"),
+			model: google("gemini-3.1-flash-lite"),
 			schema: EventSchema,
 			prompt: `
         你是一個嚴謹的活動資料提取員。
@@ -184,11 +184,11 @@ export async function POST(req: Request) {
 
 		if (message.includes("quota") || message.includes("429") || message.includes("exceeded")) {
 			return Response.json(
-				{error: "QUOTA_EXCEEDED", message: "API 額度已用完，請稍後再試或更換 API Key。"},
-				{status: 429},
+				{ error: "QUOTA_EXCEEDED", message: "API 額度已用完，請稍後再試或更換 API Key。" },
+				{ status: 429 },
 			)
 		}
 
-		return Response.json({error: "INTERNAL_ERROR", message: `伺服器錯誤：${message}`}, {status: 500})
+		return Response.json({ error: "INTERNAL_ERROR", message: `伺服器錯誤：${message}` }, { status: 500 })
 	}
 }
