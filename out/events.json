@@ -1,78 +1,11 @@
 {
   "events": [
     {
-      "description": "Legacy Presents【2026鐵漢柔情】 SoulFa 靈魂沙發《失望的山》 —— 天氣：雨（台北場）。",
-      "title": "Legacy Presents【2026鐵漢柔情】 SoulFa 靈魂沙發《失望的山》",
-      "sessions": [
-        {
-          "location": "Legacy Taipei",
-          "date": [
-            "2026/09/12"
-          ],
-          "url": "https://www.indievox.com/activity/detail/26_iv039144d"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://www.indievox.com/activity/detail/26_iv039144d",
-      "source": "iNDIEVOX"
-    },
-    {
-      "description": "OBSESS《今晚唱新歌》Live Tour 高雄場/台中場。",
-      "title": "OBSESS《今晚唱新歌》Live Tour",
-      "sessions": [
-        {
-          "location": "未知",
-          "date": [
-            "2026/09/12",
-            "2026/09/13"
-          ],
-          "url": "https://www.indievox.com/activity/detail/26_iv041227f"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://www.indievox.com/activity/detail/26_iv041227f",
-      "source": "iNDIEVOX"
-    },
-    {
-      "description": "Billboard 4LIVE SHOWCASE：伍悅 & VOOID、海豚刑警 & 洪申豪。",
-      "title": "Billboard 4LIVE SHOWCASE",
-      "sessions": [
-        {
-          "location": "BILLBOARD LIVE TAIPEI",
-          "date": [
-            "2026/09/12"
-          ],
-          "url": "https://www.billboardlivetaipei.tw"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://www.billboardlivetaipei.tw",
-      "source": "BILLBOARD LIVE TAIPEI"
-    },
-    {
-      "description": "2026 Ozone 4週年 FANCON：Self!shhh。",
-      "title": "2026 Ozone 4週年 FANCON：Self!shhh",
-      "sessions": [
-        {
-          "location": "WESTAR",
-          "date": [
-            "2026/09/13",
-            "2026/09/27",
-            "2026/09/28"
-          ],
-          "url": "https://www.indievox.com/activity/detail/26_iv0415261"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://www.indievox.com/activity/detail/26_iv0415261",
-      "source": "iNDIEVOX"
-    },
-    {
-      "description": "2026《再一次！唱歌旅行去》十週年親子演唱會。",
+      "description": "親子演唱會十週年演出。",
       "title": "2026《再一次！唱歌旅行去》十週年親子演唱會",
       "sessions": [
         {
-          "location": "臺中市政府文化局中山堂",
+          "location": "臺中市中山堂",
           "date": [
             "2026/09/19",
             "2026/09/20"
@@ -80,7 +13,7 @@
           "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19I4966"
         },
         {
-          "location": "衛武營國家藝術文化中心歌劇院",
+          "location": "衛武營國家藝術文化中心 歌劇院",
           "date": [
             "2026/11/21",
             "2026/11/22"
@@ -93,24 +26,24 @@
       "source": "年代"
     },
     {
-      "description": "鑽石舞台之夜中秋團圓限定場。",
+      "description": "鑽石舞台之夜經典歌聲重逢。",
       "title": "鑽石舞台之夜",
       "sessions": [
         {
-          "location": "台北流行音樂中心",
+          "location": "TICC 台北國際會議中心",
           "date": [
             "2026/09/26",
             "2026/09/27"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1BCQHJX"
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1BBA7AI"
         }
       ],
       "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1BCQHJX",
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1BBA7AI",
       "source": "年代"
     },
     {
-      "description": "2026樂韻飛揚音樂會。",
+      "description": "樂韻飛揚音樂會。",
       "title": "2026樂韻飛揚音樂會",
       "sessions": [
         {
@@ -126,7 +59,7 @@
       "source": "年代"
     },
     {
-      "description": "Furui Riho Billboard Live Tour 2026 -The Garden-。",
+      "description": "Furui Riho 巡迴演唱會台北站。",
       "title": "Furui Riho Billboard Live Tour 2026 -The Garden-",
       "sessions": [
         {
@@ -134,74 +67,51 @@
           "date": [
             "2026/09/26"
           ],
-          "url": "https://www.billboardlivetaipei.tw/events/originallove-cadejo"
+          "url": "https://www.billboardlivetaipei.tw/events/furuiriho2026"
         }
       ],
       "category": "演唱會",
-      "url": "https://www.billboardlivetaipei.tw/events/originallove-cadejo",
+      "url": "https://www.billboardlivetaipei.tw/events/furuiriho2026",
       "source": "BILLBOARD LIVE TAIPEI"
     },
     {
-      "description": "國泰世華銀行彭佳慧《數著時間的日子》巡迴演唱會。",
-      "title": "彭佳慧 [數著時間的日子] 巡迴演唱會",
+      "description": "SUPER JUNIOR 83z FANCON巡迴高雄場。",
+      "title": "SUPER JUNIOR-83z FANCON TOUR [1983]",
       "sessions": [
         {
-          "location": "台北小巨蛋",
+          "location": "高雄",
           "date": [
             "2026/10/03"
           ],
-          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D"
-        },
-        {
-          "location": "高雄巨蛋",
-          "date": [
-            "2026/11/21"
-          ],
-          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D"
+          "url": "https://kktix.com/events/d803d36c"
         }
       ],
       "category": "演唱會",
-      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
-      "source": "寬宏"
+      "url": "https://kktix.com/events/d803d36c",
+      "source": "KKTIX"
     },
     {
-      "description": "蕭煌奇2026〈BRAVO〉演唱會。",
-      "title": "蕭煌奇 2026 [BRAVO] 演唱會",
+      "description": "小原好美 feat. 古賀葵粉絲見面會。",
+      "title": "小原好美粉絲見面會2026 feat. 古賀葵",
       "sessions": [
         {
-          "location": "台北小巨蛋",
+          "location": "Clapper Studio",
           "date": [
             "2026/10/03"
           ],
-          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1BG3E05"
+          "url": "https://kktix.com/events/35d9126d"
         }
       ],
       "category": "演唱會",
-      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1BG3E05",
-      "source": "寬宏"
+      "url": "https://kktix.com/events/35d9126d",
+      "source": "KKTIX"
     },
     {
-      "description": "Legacy Presents【2026都市女聲】等演出。",
-      "title": "2026都市女聲",
-      "sessions": [
-        {
-          "location": "Legacy Taichung",
-          "date": [
-            "2026/10/03"
-          ],
-          "url": "https://www.indievox.com/activity/detail/26_iv041227f"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://www.indievox.com/activity/detail/26_iv041227f",
-      "source": "iNDIEVOX"
-    },
-    {
-      "description": "2026 KPOP PRIME 演唱會。",
+      "description": "KPOP 音樂會活動。",
       "title": "2026 KPOP PRIME",
       "sessions": [
         {
-          "location": "NTSU Arena(Linkou Arena)",
+          "location": "NTSU Arena",
           "date": [
             "2026/10/04"
           ],
@@ -213,45 +123,59 @@
       "source": "寬宏"
     },
     {
-      "description": "YUURI 2026 LIVE IN TAIPEI。",
-      "title": "YUURI 2026 LIVE IN TAIPEI",
+      "description": "吉卜力動畫音樂交響演唱會。",
+      "title": "2026吉卜力動畫音樂原唱歌手交響演唱會",
       "sessions": [
         {
           "location": "台北小巨蛋",
           "date": [
-            "2026/10/09",
-            "2026/10/10"
+            "2026/10/04"
           ],
-          "url": "https://ticketplus.com.tw/activity/7acedf4b414903ac17104384cb416849"
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65E"
         }
       ],
       "category": "演唱會",
-      "url": "https://ticketplus.com.tw/activity/7acedf4b414903ac17104384cb416849",
-      "source": "遠大"
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65E",
+      "source": "寬宏"
     },
     {
-      "description": "2026 法白 13 週年 LIVE PODCAST SHOW｜建國派對。",
-      "title": "2026 法白 13 週年 LIVE PODCAST SHOW｜建國派對",
+      "description": "彭佳慧巡迴演唱會。",
+      "title": "彭佳慧《數著時間的日子》巡迴演唱會",
       "sessions": [
         {
-          "location": "Legacy Taipei",
+          "location": "台北小巨蛋",
           "date": [
-            "2026/10/09",
-            "2026/10/10"
+            "2026/10/04"
           ],
-          "url": "https://www.indievox.com/activity/detail/26_iv03987ad"
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D"
         }
       ],
-      "category": "表演藝術",
-      "url": "https://www.indievox.com/activity/detail/26_iv03987ad",
-      "source": "iNDIEVOX"
+      "category": "演唱會",
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
+      "source": "寬宏"
     },
     {
-      "description": "BIGBANG 2026-2027 WORLD TOUR < XX : COSMOS > IN TAIPEI。",
+      "description": "蕭煌奇演唱會。",
+      "title": "蕭煌奇2026〈BRAVO〉演唱會",
+      "sessions": [
+        {
+          "location": "台北小巨蛋",
+          "date": [
+            "2026/10/04"
+          ],
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1BG3E05"
+        }
+      ],
+      "category": "演唱會",
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1BG3E05",
+      "source": "寬宏"
+    },
+    {
+      "description": "BIGBANG 世界巡迴演唱會台北場。",
       "title": "BIGBANG 2026-2027 WORLD TOUR < XX : COSMOS >",
       "sessions": [
         {
-          "location": "未知",
+          "location": "台北",
           "date": [
             "2026/10/10",
             "2026/10/11"
@@ -264,7 +188,23 @@
       "source": "遠大"
     },
     {
-      "description": "Yo-Sea Asia Tour 2026 - Minimum Band Set 台北場。",
+      "description": "韓國獨立音樂製作人eldon的世界巡迴演唱會台北場。",
+      "title": "eldon [ THE COMIC BOOK WORLD TOUR: EP.0 ]",
+      "sessions": [
+        {
+          "location": "未知",
+          "date": [
+            "2026/10/11"
+          ],
+          "url": "https://kktix.com/events/eldon"
+        }
+      ],
+      "category": "演唱會",
+      "url": "https://kktix.com/events/eldon",
+      "source": "KKTIX"
+    },
+    {
+      "description": "Yo-Sea 亞洲巡迴演唱會台北場。",
       "title": "Yo-Sea Asia Tour 2026 - Minimum Band Set",
       "sessions": [
         {
@@ -280,8 +220,8 @@
       "source": "KKTIX"
     },
     {
-      "description": "Omoinotake ONE MAN TOUR 2026 TAIPEI - OFF TIME。",
-      "title": "Omoinotake ONE MAN TOUR 2026 TAIPEI",
+      "description": "Omoinotake 2026 台北專場。",
+      "title": "Omoinotake ONE MAN TOUR 2026 TAIPEI - OFF TIME",
       "sessions": [
         {
           "location": "Zepp New Taipei",
@@ -296,55 +236,7 @@
       "source": "KKTIX"
     },
     {
-      "description": "玉置成實 2026亞洲巡迴演唱會台北場。",
-      "title": "玉置成實 2026亞洲巡迴演唱會",
-      "sessions": [
-        {
-          "location": "Clapper Studio",
-          "date": [
-            "2026/10/17"
-          ],
-          "url": "https://kktix.com/events/f4841443"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://kktix.com/events/f4841443",
-      "source": "KKTIX"
-    },
-    {
-      "description": "永遠的巨星 謝雷 2026演唱會。",
-      "title": "永遠的巨星 謝雷 2026演唱會",
-      "sessions": [
-        {
-          "location": "未知",
-          "date": [
-            "2026/10/17"
-          ],
-          "url": "https://ticket.com.tw/application/UTK01/UTK0101_06.aspx?TYPE=1&CATEGORY=205"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK01/UTK0101_06.aspx?TYPE=1&CATEGORY=205",
-      "source": "年代"
-    },
-    {
-      "description": "Fear, and Loathing in Las Vegas 台北演唱會2026。",
-      "title": "Fear, and Loathing in Las Vegas 台北演唱會",
-      "sessions": [
-        {
-          "location": "Clapper Studio",
-          "date": [
-            "2026/10/18"
-          ],
-          "url": "https://kktix.com/events/5c93827f"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://kktix.com/events/5c93827f",
-      "source": "KKTIX"
-    },
-    {
-      "description": "Age Factory “静脈/ERROR” Release Tour 2026 Taipei。",
+      "description": "Age Factory 台灣專場演出。",
       "title": "Age Factory “静脈/ERROR” Release Tour 2026",
       "sessions": [
         {
@@ -360,56 +252,41 @@
       "source": "KKTIX"
     },
     {
-      "description": "Novelbright ASIA TOUR 2026 ~PYRAMID~ IN TAIPEI。",
-      "title": "Novelbright ASIA TOUR 2026 ~PYRAMID~",
+      "description": "插畫盛會。",
+      "title": "SIF in Taipei 首爾插畫展",
       "sessions": [
         {
-          "location": "新北市五股工商展覽中心",
+          "location": "華山文創園區",
           "date": [
-            "2026/10/24"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_00.aspx?PRODUCT_ID=P19QK265"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK01/UTK0101_06.aspx?TYPE=1&CATEGORY=205",
-      "source": "年代"
-    },
-    {
-      "description": "《大學城經典演唱會》～青春不散場・歌聲再飛揚。",
-      "title": "大學城經典演唱會",
-      "sessions": [
-        {
-          "location": "未知",
-          "date": [
-            "2026/10/25",
+            "2026/10/23",
             "2026/10/26"
           ],
-          "url": "https://ticket.com.tw/application/UTK01/UTK0101_06.aspx?TYPE=1&CATEGORY=205"
+          "url": "https://www.huashan1914.com/w/huashan1914/exhibition_26090811570516858"
         }
       ],
-      "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK01/UTK0101_06.aspx?TYPE=1&CATEGORY=205",
-      "source": "年代"
+      "category": "展覽",
+      "url": "https://www.huashan1914.com/w/huashan1914/exhibition_26090811570516858",
+      "source": "華山文創園區"
     },
     {
-      "description": "第18屆2026美麗的高雄鄭智仁感恩音樂會。",
-      "title": "第18屆2026美麗的高雄鄭智仁感恩音樂會",
+      "description": "MUSIC EXPO LIVE 2026 台北場。",
+      "title": "MUSIC EXPO LIVE 2026",
       "sessions": [
         {
           "location": "未知",
           "date": [
+            "2026/10/24",
             "2026/10/25"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL7QOE"
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXXK2O"
         }
       ],
       "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL7QOE",
-      "source": "年代"
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXXK2O",
+      "source": "寬宏"
     },
     {
-      "description": "Vaundy ASIA ARENA TOUR 2026 “HORO” IN TAIPEI。",
+      "description": "Vaundy 亞洲巡演台北場。",
       "title": "Vaundy ASIA ARENA TOUR 2026 “HORO”",
       "sessions": [
         {
@@ -426,8 +303,8 @@
       "source": "遠大"
     },
     {
-      "description": "2026年國際沈文程日-小琉球情歌演唱會。",
-      "title": "2026年國際沈文程日-小琉球情歌演唱會",
+      "description": "沈文程演唱會。",
+      "title": "「2026年國際沈文程日-小琉球情歌演唱會」",
       "sessions": [
         {
           "location": "桃園展演中心展演廳",
@@ -442,7 +319,7 @@
       "source": "年代"
     },
     {
-      "description": "Jason Mraz ASIA TOUR 2026 IN TAIPEI。",
+      "description": "Jason Mraz 睽違七年重返亞洲。",
       "title": "Jason Mraz ASIA TOUR 2026",
       "sessions": [
         {
@@ -458,8 +335,8 @@
       "source": "年代"
     },
     {
-      "description": "Jony J 2026「本命」巡迴台北站，感受專屬現場。",
-      "title": "Jony J [本命] 巡迴演唱會",
+      "description": "Jony J 2026「本命」巡迴演唱會台北場。",
+      "title": "Jony J 2026「本命」TOUR",
       "sessions": [
         {
           "location": "Zepp New Taipei",
@@ -474,89 +351,40 @@
       "source": "KKTIX"
     },
     {
-      "description": "工藤晴香2026台北粉絲見面會。",
-      "title": "工藤晴香 2026粉絲見面會",
+      "description": "山下智久高雄巡迴演唱會。",
+      "title": "山下智久 2026 巡迴演唱會 DREAMING",
       "sessions": [
         {
-          "location": "Clapper Studio",
-          "date": [
-            "2026/11/07"
-          ],
-          "url": "https://kktix.com/events/jrsfeb02"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://kktix.com/events/jrsfeb02",
-      "source": "KKTIX"
-    },
-    {
-      "description": "2026年巧虎英語舞臺劇“Finding Rainbow Island 尋找彩虹島“。",
-      "title": "2026年巧虎英語舞臺劇“Finding Rainbow Island 尋找彩虹島“",
-      "sessions": [
-        {
-          "location": "臺北市兒童新樂園兒童劇場",
-          "date": [
-            "2026/11/07",
-            "2026/11/21"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ET7M40"
-        }
-      ],
-      "category": "表演藝術",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ET7M40",
-      "source": "年代"
-    },
-    {
-      "description": "山下智久2026巡迴演唱會高雄場，帶你重溫DREAMING現場。",
-      "title": "山下智久 [DREAMING] 巡迴演唱會",
-      "sessions": [
-        {
-          "location": "高雄流行音樂中心海音館",
+          "location": "高雄流行音樂中心 海音館",
           "date": [
             "2026/11/14"
           ],
-          "url": "https://kktix.com/events/jfdfrt8"
+          "url": "https://kktix.com/events/rfrgo6"
         }
       ],
       "category": "演唱會",
-      "url": "https://kktix.com/events/jfdfrt8",
+      "url": "https://kktix.com/events/rfrgo6",
       "source": "KKTIX"
     },
     {
-      "description": "2026璀璨星光、讓愛起飛～35周年慶音樂會。",
-      "title": "2026璀璨星光、讓愛起飛～35周年慶音樂會",
+      "description": "名譽傳說首度專場巡迴演唱會。",
+      "title": "名譽傳說1st ONEMAN TOUR 2026",
       "sessions": [
         {
           "location": "未知",
           "date": [
-            "2026/11/15"
+            "2026/11/28"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FDODMR"
+          "url": "https://kktix.com/events/myds2026"
         }
       ],
       "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FDODMR",
-      "source": "年代"
+      "url": "https://kktix.com/events/myds2026",
+      "source": "KKTIX"
     },
     {
-      "description": "2026功學社「賞心樂目」年度音樂會（高雄場）。",
-      "title": "2026功學社「賞心樂目」年度音樂會",
-      "sessions": [
-        {
-          "location": "國立中山大學逸仙館",
-          "date": [
-            "2026/11/15"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F5TXVJ"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F5TXVJ",
-      "source": "年代"
-    },
-    {
-      "description": "【翁倩玉 陽光般的60週年演唱會-時間之歌】。",
-      "title": "翁倩玉 陽光般的60週年演唱會",
+      "description": "翁倩玉出道60週年演唱會。",
+      "title": "翁倩玉【陽光般的60週年演唱會-時間之歌】",
       "sessions": [
         {
           "location": "台中中興大學惠蓀堂",
@@ -571,34 +399,11 @@
       "source": "年代"
     },
     {
-      "description": "ゲシュタルト乙女 Gestalt Girl 「働くこと、休むこと。」專輯發片巡迴 - 高雄場/台北場。",
-      "title": "Gestalt Girl 「働くこと、休むこと。」專輯發片巡迴",
+      "description": "林淑容演唱會。",
+      "title": "林淑容【您的經典．我的歌】世界巡迴演唱會",
       "sessions": [
         {
-          "location": "LIVE WAREHOUSE",
-          "date": [
-            "2026/12/04"
-          ],
-          "url": "https://www.indievox.com/activity/detail/26_iv04139b2"
-        },
-        {
-          "location": "台北",
-          "date": [
-            "2026/12/04"
-          ],
-          "url": "https://www.indievox.com/activity/detail/26_iv0414174"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://www.indievox.com/activity/detail/26_iv04139b2",
-      "source": "iNDIEVOX"
-    },
-    {
-      "description": "2026林淑容【您的經典．我的歌】世界巡迴演唱會台中場。",
-      "title": "2026林淑容【您的經典．我的歌】世界巡迴演唱會",
-      "sessions": [
-        {
-          "location": "台中",
+          "location": "台中中興大學惠蓀堂",
           "date": [
             "2026/12/05"
           ],
@@ -610,37 +415,20 @@
       "source": "年代"
     },
     {
-      "description": "2026黃詩雅小提琴獨奏會《走向光明》。",
-      "title": "2026黃詩雅小提琴獨奏會《走向光明》",
+      "description": "BIGBANG 2026-2027 世界巡迴演唱會高雄場。",
+      "title": "BIGBANG 2026-2027 WORLD TOUR < XX : COSMOS >",
       "sessions": [
         {
-          "location": "衛武營國家藝術文化中心表演廳",
+          "location": "高雄",
           "date": [
-            "2026/12/24"
+            "2027/02/27"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1E0CIOY"
-        }
-      ],
-      "category": "表演藝術",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1E0CIOY",
-      "source": "年代"
-    },
-    {
-      "description": "2026蔡義德【聲聲不息】演唱會。",
-      "title": "2026蔡義德【聲聲不息】演唱會",
-      "sessions": [
-        {
-          "location": "台中中興大學惠蓀堂",
-          "date": [
-            "2026/12/26",
-            "2026/12/27"
-          ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ATPSBQ"
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1EMCIC6"
         }
       ],
       "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ATPSBQ",
-      "source": "年代"
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1EMCIC6",
+      "source": "寬宏"
     }
   ]
 }
