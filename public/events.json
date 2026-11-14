@@ -1,29 +1,74 @@
 {
   "events": [
     {
-      "description": "當 AI 開始思考與審美，藝術家的角色會否有所不同？ 《藝術家正在輸入⋯⋯》展覽與對談。",
-      "title": "《藝術家正在輸入⋯⋯》對談活動",
+      "description": "幾米25週年活動：幾米快閃店與《與幾米頭碰頭》沉浸互動展",
+      "title": "幾米25週年系列活動",
       "sessions": [
         {
           "location": "華山文創園區",
           "date": [
-            "2026/11/06",
-            "2026/11/07"
+            "2026/10/09",
+            "2026/12/20"
           ],
-          "url": "https://www.huashan1914.com/exhibition/%E8%97%9D%E8%A1%93%E5%AE%B6%E6%AD%A3%E5%9C%A8%E8%BC%B8%E5%85%A5%E2%8B%AF"
+          "url": "https://www.huashan1914.com/exhibition/%E5%B9%BE%E7%B1%B325%E9%80%B1%E5%B9%B4%E6%B4%BB%E5%8B%95%EF%BC%81%E3%80%8A%E5%B9%BE%E7%B1%B3%E5%BF%AB%E9%96%83%E5%BA%97%E3%80%8B%E3%80%81%E3%80%8A%E8%88%87%E5%B9%BE%E7%B1%B3%E9%A0%AD%E7%A2%B0%E9%A0%AD%E3%80%8B%E5%85%A8%E5%A2%83%E5%BC%8F%E6%B2%89%E6%B5%B8%E4%BA%92%E5%8B%95%E5%B1%95%E8%8F%AF%E5%B1%B1%E7%99%BB%E5%A0%B4"
         }
       ],
       "category": "展覽",
-      "tags": [
-        "AI",
-        "藝術"
-      ],
-      "url": "https://www.huashan1914.com/exhibition/%E8%97%9D%E8%A1%93%E5%AE%B6%E6%AD%A3%E5%9C%A8%E8%BC%B8%E5%85%A5%E2%8B%AF",
+      "url": "https://www.huashan1914.com/exhibition/%E5%B9%BE%E7%B1%B325%E9%80%B1%E5%B9%B4%E6%B4%BB%E5%8B%95%EF%BC%81%E3%80%8A%E5%B9%BE%E7%B1%B3%E5%BF%AB%E9%96%83%E5%BA%97%E3%80%8B%E3%80%81%E3%80%8A%E8%88%87%E5%B9%BE%E7%B1%B3%E9%A0%AD%E7%A2%B0%E9%A0%AD%E3%80%8B%E5%85%A8%E5%A2%83%E5%BC%8F%E6%B2%89%E6%B5%B8%E4%BA%92%E5%8B%95%E5%B1%95%E8%8F%AF%E5%B1%B1%E7%99%BB%E5%A0%B4",
       "source": "華山文創園區"
     },
     {
-      "description": "2026台北喜劇節活動：ぜんじろう スタンダップ",
-      "title": "2026台北喜劇節：ぜんじろう スタンダップ",
+      "description": "Mr.Donothing 期間限定店",
+      "title": "Mr.Donothing 快閃店",
+      "sessions": [
+        {
+          "location": "華山文創園區",
+          "date": [
+            "2026/10/30",
+            "2027/01/05"
+          ],
+          "url": "https://www.huashan1914.com/exhibition/MrDonothingin%E8%8F%AF%E5%B1%B11914"
+        }
+      ],
+      "category": "展覽",
+      "url": "https://www.huashan1914.com/exhibition/MrDonothingin%E8%8F%AF%E5%B1%B11914",
+      "source": "華山文創園區"
+    },
+    {
+      "description": "烙聲派對 VOL.3｜ FUCK’N BEFORE THE FREEZE",
+      "title": "烙聲派對 VOL.3",
+      "sessions": [
+        {
+          "location": "迴響音樂藝文展演空間",
+          "date": [
+            "2026/11/14"
+          ],
+          "url": "https://www.indievox.com/partner/search/%E8%BF%B4%E9%9F%BF?type=table"
+        }
+      ],
+      "category": "演唱會",
+      "url": "https://www.indievox.com/partner/search/%E8%BF%B4%E9%9F%BF?type=table",
+      "source": "iNDIEVOX"
+    },
+    {
+      "description": "蔡題謙 2026 專場【中間】",
+      "title": "蔡題謙 2026 專場【中間】",
+      "sessions": [
+        {
+          "location": "Legacy Taichung",
+          "date": [
+            "2026/11/14"
+          ],
+          "url": "https://www.indievox.com/partner/search/Legacy%20Taichung"
+        }
+      ],
+      "category": "演唱會",
+      "url": "https://www.indievox.com/partner/search/Legacy%20Taichung",
+      "source": "iNDIEVOX"
+    },
+    {
+      "description": "2026台北喜劇節：ぜんじろう スタンダップコメディ",
+      "title": "ZENJIRO LIVE COMEDY SHOW",
       "sessions": [
         {
           "location": "月半窩",
@@ -34,47 +79,83 @@
         }
       ],
       "category": "表演藝術",
-      "tags": [
-        "喜劇",
-        "台北喜劇節"
-      ],
       "url": "https://kktix.com/events/zenjiro1202",
       "source": "KKTIX"
     },
     {
-      "description": "2026林淑容【您的經典．我的歌】世界巡迴演唱會台中場。",
-      "title": "2026林淑容【您的經典．我的歌】世界巡迴演唱會",
+      "description": "滅火器高雄巨蛋演唱會",
+      "title": "ON FIRE DAY 滅火器巡迴演唱會",
       "sessions": [
         {
-          "location": "台中中興大學惠蓀堂",
+          "location": "高雄巨蛋",
           "date": [
-            "2026/12/05"
+            "2026/12/12",
+            "2026/12/13"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2"
+          "url": "https://kktix.com/events/476bcfdb"
         }
       ],
       "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
-      "source": "年代"
+      "url": "https://kktix.com/events/476bcfdb",
+      "source": "KKTIX"
     },
     {
-      "description": "AKINO GENESIS 台北個人演唱會 “新時代開啟.”。",
-      "title": "AKINO GENESIS 台北個人演唱會 “新時代開啟.”",
+      "description": "田馥甄要去什麼地方2026台北小巨蛋演唱會",
+      "title": "田馥甄 [要去什麼地方] 演唱會",
       "sessions": [
         {
-          "location": "CLAPPER STUDIO",
+          "location": "台北小巨蛋",
           "date": [
             "2026/12/12"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1HK62YI"
+          "url": "https://ticketplus.com.tw/activity/afaf206f48c75998345655952851c853"
         }
       ],
       "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1HK62YI",
-      "source": "年代"
+      "url": "https://ticketplus.com.tw/activity/afaf206f48c75998345655952851c853",
+      "source": "遠大"
     },
     {
-      "description": "蘋果女孩LIVE in Taiwan 2026。",
+      "description": "May'n All Requests Live Tour 2026「平假名夯果醬」",
+      "title": "May'n [平假名夯果醬] 巡迴演唱會",
+      "sessions": [
+        {
+          "location": "LIVE WAREHOUSE",
+          "date": [
+            "2026/12/12"
+          ],
+          "url": "https://ticketplus.com.tw/activity/3b2c627140861eaaca5e6cde9e86c8b8"
+        },
+        {
+          "location": "三創 CLAPPER STUDIO",
+          "date": [
+            "2026/12/13"
+          ],
+          "url": "https://ticketplus.com.tw/activity/3b2c627140861eaaca5e6cde9e86c8b8"
+        }
+      ],
+      "category": "演唱會",
+      "url": "https://ticketplus.com.tw/activity/3b2c627140861eaaca5e6cde9e86c8b8",
+      "source": "遠大"
+    },
+    {
+      "description": "culenasm BARIYOKA WINTER TOUR 2026",
+      "title": "culenasm BARIYOKA WINTER TOUR",
+      "sessions": [
+        {
+          "location": "BILLBOARD LIVE TAIPEI",
+          "date": [
+            "2026/12/12"
+          ],
+          "url": "https://www.billboardlivetaipei.tw/events/culenasm2026"
+        }
+      ],
+      "category": "演唱會",
+      "url": "https://www.billboardlivetaipei.tw/events/culenasm2026",
+      "source": "BILLBOARD LIVE TAIPEI"
+    },
+    {
+      "description": "蘋果女孩LIVE in Taiwan 2026",
       "title": "蘋果女孩LIVE in Taiwan",
       "sessions": [
         {
@@ -90,27 +171,11 @@
       "source": "KKTIX"
     },
     {
-      "description": "LEO IEIRI Billboard Live in Taipei 2026",
-      "title": "LEO IEIRI Billboard Live in Taipei",
+      "description": "go!go!vanillas Asia Tour 2026 in Taipei",
+      "title": "go!go!vanillas Asia Tour 2026",
       "sessions": [
         {
-          "location": "BILLBOARD LIVE TAIPEI",
-          "date": [
-            "2026/12/13"
-          ],
-          "url": "https://www.billboardlivetaipei.tw/events/leoieiri2026"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://www.billboardlivetaipei.tw/events/leoieiri2026",
-      "source": "BILLBOARD LIVE TAIPEI"
-    },
-    {
-      "description": "go!go!vanillas Asia Tour 2026 in Taipei 延期場次。",
-      "title": "go!go!vanillas Asia Tour",
-      "sessions": [
-        {
-          "location": "未知",
+          "location": "台北",
           "date": [
             "2026/12/14"
           ],
@@ -122,93 +187,40 @@
       "source": "KKTIX"
     },
     {
-      "description": "奈良美智攝影展《繞遠路的風景》",
-      "title": "繞遠路的風景―台灣・北海道・庫頁島」奈良美智攝影展",
+      "description": "APMOZART 2026 巡演",
+      "title": "APMOZART 巡迴演唱會",
       "sessions": [
         {
-          "location": "華山文創園區",
+          "location": "台北",
           "date": [
-            "2026/12/20",
-            "2027/01/25"
+            "2026/12/20"
           ],
-          "url": "https://www.huashan1914.com/exhibition/event-AllWithintheDetour%E7%B9%9E%E9%81%A0%E8%B7%AF%E7%9A%84%E9%A2%A8%E6%99%AF%E5%8F%B0%E7%81%A3%E5%8C%97%E6%B5%B7%E9%81%93%E5%BA%AB%E9%A0%81%E5%B3%B6%E5%A5%88%E8%89%AF%E7%BE%8E%E6%99%BA%E6%94%9D%E5%BD%B1%E5%B1%95"
-        }
-      ],
-      "category": "展覽",
-      "tags": [
-        "奈良美智",
-        "攝影"
-      ],
-      "url": "https://www.huashan1914.com/exhibition/event-AllWithintheDetour%E7%B9%9E%E9%81%A0%E8%B7%AF%E7%9A%84%E9%A2%A8%E6%99%AF%E5%8F%B0%E7%81%A3%E5%8C%97%E6%B5%B7%E9%81%93%E5%BA%AB%E9%A0%81%E5%B3%B6%E5%A5%88%E8%89%AF%E7%BE%8E%E6%99%BA%E6%94%9D%E5%BD%B1%E5%B1%95",
-      "source": "華山文創園區"
-    },
-    {
-      "description": "魚條《變形》巡迴演唱會。",
-      "title": "魚條《變形》巡迴演唱會",
-      "sessions": [
-        {
-          "location": "Legacy Taipei",
-          "date": [
-            "2026/12/24"
-          ],
-          "url": "https://www.indievox.com/activity"
-        },
-        {
-          "location": "Legacy Taichung",
-          "date": [
-            "2027/01/10"
-          ],
-          "url": "https://www.indievox.com/activity"
-        },
-        {
-          "location": "LIVE WAREHOUSE",
-          "date": [
-            "2027/01/16"
-          ],
-          "url": "https://www.indievox.com/activity"
+          "url": "https://kktix.com/events/2026apmozarttaipei"
         }
       ],
       "category": "演唱會",
-      "url": "https://www.indievox.com/activity",
-      "source": "iNDIEVOX"
-    },
-    {
-      "description": "2026 YESUNG 10TH ANNIVERSARY TOUR 台北場。",
-      "title": "2026 YESUNG 10TH ANNIVERSARY TOUR",
-      "sessions": [
-        {
-          "location": "未知",
-          "date": [
-            "2026/12/25",
-            "2026/12/26"
-          ],
-          "url": "https://kktix.com/events/ef5s9gh"
-        }
-      ],
-      "category": "演唱會",
-      "url": "https://kktix.com/events/ef5s9gh",
+      "url": "https://kktix.com/events/2026apmozarttaipei",
       "source": "KKTIX"
     },
     {
-      "description": "2026蔡義德【聲聲不息】演唱會。",
-      "title": "2026蔡義德【聲聲不息】演唱會",
+      "description": "諏訪ななかFan Meeting & Mini Live in Taipei",
+      "title": "諏訪ななか Fan Meeting & Mini Live",
       "sessions": [
         {
-          "location": "台中中興大學惠蓀堂",
+          "location": "MOONDOG Taipei",
           "date": [
-            "2026/12/26",
-            "2026/12/27"
+            "2026/12/25"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ATPSBQ"
+          "url": "https://ticketplus.com.tw/activity/90e38a4ec114145802d43a5acaff7e8a"
         }
       ],
       "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ATPSBQ",
-      "source": "年代"
+      "url": "https://ticketplus.com.tw/activity/90e38a4ec114145802d43a5acaff7e8a",
+      "source": "遠大"
     },
     {
-      "description": "阮丹青 & Friends - 自然流動樂團「走進春天的果園 - 情歌四季」",
-      "title": "阮丹青 & Friends - 自然流動樂團「走進春天的果園 - 情歌四季」",
+      "description": "阮丹青& Friends - 自然流動樂團「走進春天的果園 - 情歌四季」",
+      "title": "阮丹青& Friends - 自然流動樂團「走進春天的果園 - 情歌四季」",
       "sessions": [
         {
           "location": "BILLBOARD LIVE TAIPEI",
@@ -223,11 +235,11 @@
       "source": "BILLBOARD LIVE TAIPEI"
     },
     {
-      "description": "草蜢「THREE IN LOVE」演唱會。",
-      "title": "草蜢 [THREE IN LOVE] 演唱會",
+      "description": "草蜢THREE IN LOVE 演唱會2027",
+      "title": "草蜢 [THREE IN LOVE] 巡迴演唱會",
       "sessions": [
         {
-          "location": "未知",
+          "location": "台北",
           "date": [
             "2027/01/16",
             "2027/01/17"
@@ -240,41 +252,36 @@
       "source": "KKTIX"
     },
     {
-      "description": "2026 佳諭單口喜劇專場《Get 婚》。延期至2027年1月舉行。",
+      "description": "佳諭單口喜劇專場《Get 婚》台北場",
       "title": "佳諭單口喜劇專場《Get 婚》",
       "sessions": [
         {
-          "location": "台北市復興北路480號B1",
+          "location": "台北",
           "date": [
-            "2027/01/22",
             "2027/01/23"
           ],
-          "url": "https://kktix.com/events/get2026"
+          "url": "https://kktix.com/events/get20261024"
         }
       ],
       "category": "表演藝術",
-      "tags": [
-        "單口喜劇"
-      ],
-      "url": "https://kktix.com/events/get2026",
+      "url": "https://kktix.com/events/get20261024",
       "source": "KKTIX"
     },
     {
-      "description": "浪漫情人節－煙雨濛濛音樂會 聽瓊瑤的故事．唱瓊瑤的歌。",
-      "title": "浪漫情人節－煙雨濛濛音樂會",
+      "description": "Moi dix Mois Live in Taipei 2026 with Kaya 延期場次",
+      "title": "Moi dix Mois Live in Taipei",
       "sessions": [
         {
-          "location": "臺北市中山堂中正廳",
+          "location": "THE WALL",
           "date": [
-            "2027/02/13",
-            "2027/02/14"
+            "2027/02/28"
           ],
-          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1H6XDGH"
+          "url": "https://ticketplus.com.tw/activity/dd245f0210985ec16a62e87212366b38"
         }
       ],
       "category": "演唱會",
-      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1H6XDGH",
-      "source": "年代"
+      "url": "https://ticketplus.com.tw/activity/dd245f0210985ec16a62e87212366b38",
+      "source": "遠大"
     }
   ]
 }
